@@ -1,0 +1,94 @@
+body {
+    background: #f6f7f8;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.789;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.s_header {
+    background-color: black;
+    height: 73px;
+   
+}
+div#header.header_top{
+    padding:20px 28px 0px 30px;
+}
+div.menu li a{
+    padding:0px 15px;
+    
+}
+.header_logo a {
+    display: inline-block; 
+    border: none;
+  }
+  
+.header_logo img {
+    width: 125px;
+    height: 30px;
+    margin: 0;
+   
+  }
+#nav{
+    display: flex;
+    flex-direction: row;
+}
+#nav .menu li.current > a{
+    color: #ffffff;
+}
+#nav, .sub-menu{
+    list-style-type: none;
+}
+#nav div.menu > li{
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav li:hover .sub-menu{
+    display: block;
+}
+#nav .sub-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+}
+#nav .menu li a{
+    /* color: #e73030; */
+    line-height: 4rem;
+    
+
+}
+#nav > div > li > a{
+    color: rgba(255, 255, 255, 0.6);
+}
+#nav li a{
+    font-family: "Heebo", sans-serif;
+    display: block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0px 15px 12.5px 15px;
+}
+#nav .sub-menu li:hover a,
+#nav .menu > li:hover > a{
+    color: #fff;
+    background-color: #000;
+}
+
+#nav .sub-menu a{
+    color: #000;
+}
+
+
+.logo{
+    display: inline-block;
+}
+.menu{
+    display: inline-block;
+
+}
