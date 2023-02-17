@@ -1,0 +1,741 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BE_blog_BTLLTWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BE_blog_BTLLTWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\LICENSE.md",
+      "PackagePath": "staticwebassets\\Ckeditor\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\README.md",
+      "PackagePath": "staticwebassets\\Ckeditor\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\ckeditor.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\ckeditor.js.map"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\af.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ast.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\az.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\bn.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\bn.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\da.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\de.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\el.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\es-co.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\es-co.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\es.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\et.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\gu.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\he.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\id.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\it.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\jv.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\jv.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\kk.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\kk.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\km.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\km.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\kn.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ku.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ms.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ne.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\no.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\no.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\oc.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ru.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\si.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\si.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\th.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\tk.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\tt.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ur.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\ur.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\uz.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\build\\translations\\zh.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\package.json",
+      "PackagePath": "staticwebassets\\Ckeditor\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\sample\\index.html",
+      "PackagePath": "staticwebassets\\Ckeditor\\sample\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\sample\\styles.css",
+      "PackagePath": "staticwebassets\\Ckeditor\\sample\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\src\\ckeditor.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\src\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\webpack.config.js",
+      "PackagePath": "staticwebassets\\Ckeditor\\webpack.config.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\base.css",
+      "PackagePath": "staticwebassets\\css\\base.css"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\checkLayout.css",
+      "PackagePath": "staticwebassets\\css\\checkLayout.css"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\layoutdm.css",
+      "PackagePath": "staticwebassets\\css\\layoutdm.css"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\vendor.css",
+      "PackagePath": "staticwebassets\\css\\vendor.css"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-01.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\user-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-02.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\user-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-03.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\user-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-04.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\user-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-05.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\user-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-arrow-left.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-arrow-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-arrow-right.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-arrow-up.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-audio.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-audio.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-link.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-link.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-mail.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-mail.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-quote.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-quote.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-search-w.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-search-w.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-search.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-search.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-video.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-video.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\iconmonstr-home-6.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\iconmonstr-home-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-behance.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\social\\icon-behance.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-dribbble.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\social\\icon-dribbble.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-email.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\social\\icon-email.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-facebook.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\social\\icon-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-instagram.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\social\\icon-instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-pinterest.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\social\\icon-pinterest.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-rss.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\social\\icon-rss.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-twitter.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\social\\icon-twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\iconmonstr-google-plus-1.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\social\\iconmonstr-google-plus-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\iconmonstr-user-circle-thin.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\social\\iconmonstr-user-circle-thin.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\logo-black.png",
+      "PackagePath": "staticwebassets\\images\\logo-black.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\sample-image.jpg",
+      "PackagePath": "staticwebassets\\images\\sample-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\about\\about-1000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\about\\about-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\about\\about-2000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\about\\about-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\about\\about-500.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\about\\about-500.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\contact\\contact-1000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\contact\\contact-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\contact\\contact-2000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\contact\\contact-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\contact\\contact-500.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\contact\\contact-500.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\beetle-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\beetle-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\beetle-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\beetle-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\cookies-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\cookies-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\cookies-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\cookies-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\dew-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\dew-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\dew-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\dew-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-1-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\gallery\\slide-1-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-1-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\gallery\\slide-1-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-2-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\gallery\\slide-2-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-2-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\gallery\\slide-2-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-3-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\gallery\\slide-3-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-3-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\gallery\\slide-3-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\guitarist-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\guitarist-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\guitarist-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\guitarist-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\jump-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\jump-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\jump-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\jump-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\lamp-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\lamp-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\lamp-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\lamp-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\real-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\real-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\real-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\real-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\rucksack-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\rucksack-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\rucksack-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\rucksack-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\tulips-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\tulips-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\tulips-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\tulips-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\walk-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\walk-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\walk-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\walk-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\woodcraft-1200.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\woodcraft-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\woodcraft-600.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\masonry\\woodcraft-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-1000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\gallery\\single-gallery-01-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-2000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\gallery\\single-gallery-01-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-500.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\gallery\\single-gallery-01-500.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-1000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\gallery\\single-gallery-02-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-2000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\gallery\\single-gallery-02-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-500.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\gallery\\single-gallery-02-500.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-1000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\gallery\\single-gallery-03-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-2000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\gallery\\single-gallery-03-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-500.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\gallery\\single-gallery-03-500.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\318610460_1361993547876784_567438594511283267_n.png",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\standard\\318610460_1361993547876784_567438594511283267_n.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\standard-1000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\standard\\standard-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\standard-2000.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\standard\\standard-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\standard-500.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbs\\single\\standard\\standard-500.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\wheel-1000.jpg",
+      "PackagePath": "staticwebassets\\images\\wheel-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\wheel-2000.jpg",
+      "PackagePath": "staticwebassets\\images\\wheel-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\wheel-500.jpg",
+      "PackagePath": "staticwebassets\\images\\wheel-500.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\create_post.js",
+      "PackagePath": "staticwebassets\\js\\create_post.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\custom_register.js",
+      "PackagePath": "staticwebassets\\js\\custom_register.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\customjs.js",
+      "PackagePath": "staticwebassets\\js\\customjs.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\ec.js",
+      "PackagePath": "staticwebassets\\js\\ec.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\js\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\test_login.js",
+      "PackagePath": "staticwebassets\\js\\test_login.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BE_blog_BTLLTWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BE_blog_BTLLTWeb.props",
+      "PackagePath": "build\\BE_blog_BTLLTWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BE_blog_BTLLTWeb.props",
+      "PackagePath": "buildMultiTargeting\\BE_blog_BTLLTWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BE_blog_BTLLTWeb.props",
+      "PackagePath": "buildTransitive\\BE_blog_BTLLTWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

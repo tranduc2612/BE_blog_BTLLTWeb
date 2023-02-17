@@ -1,0 +1,169 @@
+.d-none{
+    display: none;
+}
+.password_required{
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: none;
+}
+.password_required ul{
+    padding: 0;
+    margin: 0 0 15px;
+    list-style: none;
+}
+.password_required ul li{
+    margin-bottom: 8px;
+    color: red;
+    font-weight: 700;
+}
+.password_required ul li.active{
+    color:#02af02;
+}
+.password_required ul li span:before{
+    content: "❌";
+}
+.password_required ul li.active span:before{
+    content:"✔️";
+}
+
+.password_required_check{
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: none;
+}
+.password_required_check ul{
+    padding: 0;
+    margin: 0 0 15px;
+    list-style: none;
+}
+.password_required_check ul li{
+    margin-bottom: 8px;
+    color: red;
+    font-weight: 700;
+}
+.password_required_check ul li.active{
+    color:#02af02;
+}
+.password_required_check ul li span:before{
+    content: "❌";
+}
+.password_required_check ul li.active span:before{
+    content:"✔️";
+}
+
+.Account_required{
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: none;
+    list-style: none;
+}
+
+.accountInput-register ul,.emailInput-register ul{
+    margin: 0 0 15px;
+}
+/* .Account_required{
+    padding: 0;
+    margin: 0 0 15px;
+    list-style: none;
+}
+.Account_required{
+    margin-bottom: 8px;
+    color: red;
+    font-weight: 700;
+}
+.Account_required.active{
+    color:#02af02;
+}
+.Account_required span:before{
+    content: "❌";
+}
+.Account_required.active span:before{
+    content:"✔️";
+} */
+
+.accountInput-register{
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: none;
+}
+.accountInput-register ul{
+    padding: 0;
+    margin: 0 0 15px;
+    list-style: none;
+}
+.accountInput-register ul li{
+    margin-bottom: 8px;
+    color: red;
+    font-weight: 700;
+}
+.accountInput-register ul li.active{
+    color:#02af02;
+}
+.accountInput-register ul li span:before{
+    content: "❌";
+}
+.accountInput-register ul li.active span:before{
+    content:"✔️";
+} 
+
+/* .Email_required{
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: none;
+    list-style: none;
+}
+.Email_required{
+    padding: 0;
+    margin: 0 0 15px;
+    list-style: none;
+}
+.Email_required{
+    margin-bottom: 8px;
+    color: red;
+    font-weight: 700;
+}
+.Email_required.active{
+    color:#02af02;
+}
+.Email_required span:before{
+    content: "❌";
+}
+.Email_required.active span:before{
+    content:"✔️";
+} */
+.emailInput-register{
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: none;
+}
+.emailInput-register ul{
+    padding: 0;
+    margin: 0 0 15px;
+    list-style: none;
+}
+.emailInput-register ul li{
+    margin-bottom: 8px;
+    color: red;
+    font-weight: 700;
+}
+.emailInput-register ul li.active{
+    color:#02af02;
+}
+.emailInput-register ul li span:before{
+    content: "❌"; 
+}
+.emailInput-register ul li.active span:before{
+    content:"✔️";
+}
+.shadow:hover{
+        background-color: black;
+        -moz-box-shadow: 3px 3px 5px 0px #666;
+        -webkit-box-shadow: 3px 3px 5px 0px #666;
+        box-shadow: 3px 3px 5px 0px #666;
+    }
