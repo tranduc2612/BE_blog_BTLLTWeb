@@ -23,13 +23,13 @@
 
 	<!-- CSS
 	================================================== -->
-	<link rel="stylesheet" href="css/base.css" />
-	<link rel="stylesheet" href="css/vendor.css" />
-	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="../css/base.css" />
+	<link rel="stylesheet" href="../css/vendor.css" />
+	<link rel="stylesheet" href="../css/main.css" />
 
 	<!-- script
 	================================================== -->
-	<script src="js/modernizr.js"></script>
+	<script src="../js/modernizr.js"></script>
 
 	<!-- favicons
 	================================================== -->
@@ -39,7 +39,7 @@
 	<link rel="manifest" href="site.webmanifest" />
 	<style>
 		.header__social .ss-user a::after {
-			background-image: url(./images/icons/social/iconmonstr-user-circle-thin.svg);
+			background-image: url(./../images/icons/social/iconmonstr-user-circle-thin.svg);
 		}
 	</style>
 </head>
@@ -62,7 +62,7 @@
 			<div class="header__top">
 				<div class="header__logo">
 					<a class="site-logo" href="index.html">
-						<img src="images/logo.svg" alt="Homepage" />
+						<img src="../images/logo.svg" alt="Homepage" />
 					</a>
 				</div>
 
@@ -162,6 +162,7 @@
 						<ul class="sub-menu">
 							<li><a href="category.html">All Post</a></li>
 							<li><a href="your-post.html">Your Post</a></li>
+							<li><a href="create-post.html" title="">Create Post</a></li>
 						</ul>
 					</li>
 					<li class="has-children">
@@ -175,10 +176,9 @@
 							<li><a href="#">Other...</a></li>
 						</ul>
 					</li>
-					<li><a href="FindAdvance.html" title="">Find Advance</a></li>
-					<li><a href="create-post.html" title="">Create Post</a></li>
-					<li><a href="page-about.html" title="">About us</a></li>
-					<li><a href="page-contact.html" title="">Contact</a></li>
+					<li><a asp-controller="site" asp-action="FindAdvance" title="">Find Advance</a></li>
+					<li><a asp-controller = "site" asp-action="AboutUs" title="">About us</a></li>
+					<li><a asp-controller = "site" asp-action="Contact" title="">Contact</a></li>
 				</ul>
 				<!-- end header__nav -->
 
@@ -227,10 +227,10 @@
 	<!-- end s-wrap -->
 	<!-- Java Script
 	================================================== -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/create_post.js"></script>
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/plugins.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/create_post.js"></script>
 	<script language="JavaScript" type="text/javascript">
 		class MyUploadAdapter {
 			constructor(loader) {

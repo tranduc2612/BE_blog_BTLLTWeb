@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iqN3F380jtUL3AE9vyM2PaGE60t70W9m0fLX6zcWxY0=",
+  "Hash": "WzgZM/JLdoVqLoUU6Ueoa/RhicizRzAOtH4wjRQ+aJs=",
   "Source": "BE_blog_BTLLTWeb",
   "BasePath": "_content/BE_blog_BTLLTWeb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BE_blog_BTLLTWeb\\wwwroot",
       "Source": "BE_blog_BTLLTWeb",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BE_blog_BTLLTWeb.styles.css",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BE_blog_BTLLTWeb.styles.css",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "BE_blog_BTLLTWeb.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BE_blog_BTLLTWeb.styles.css"
+      "OriginalItemSpec": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BE_blog_BTLLTWeb.styles.css"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BE_blog_BTLLTWeb.bundle.scp.css",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BE_blog_BTLLTWeb.bundle.scp.css",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "BE_blog_BTLLTWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BE_blog_BTLLTWeb.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BE_blog_BTLLTWeb.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\android-chrome-192x192.png",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\android-chrome-192x192.png",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "android-chrome-192x192.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\android-chrome-192x192.png"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\android-chrome-512x512.png",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\android-chrome-512x512.png",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "android-chrome-512x512.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\android-chrome-512x512.png"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\apple-touch-icon.png",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\apple-touch-icon.png",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "apple-touch-icon.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\apple-touch-icon.png"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\ckeditor.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\ckeditor.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/ckeditor.js",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\ckeditor.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\ckeditor.js.map",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\ckeditor.js.map",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/ckeditor.js.map",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\ckeditor.js.map"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\af.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\af.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/af.js",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\af.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ar.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ar.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ar.js",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ar.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ast.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ast.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ast.js",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ast.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\az.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\az.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/az.js",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\az.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\bg.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\bg.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/bg.js",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\bg.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\bn.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\bn.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/bn.js",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\bn.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\bs.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\bs.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/bs.js",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\bs.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ca.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ca.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ca.js",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ca.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\cs.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\cs.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/cs.js",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\cs.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\da.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\da.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/da.js",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\da.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\de.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\de.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/de.js",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\de.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\de-ch.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\de-ch.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/de-ch.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\de-ch.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\el.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\el.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/el.js",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\el.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\en-au.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\en-au.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/en-au.js",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\en-au.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\en-gb.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\en-gb.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/en-gb.js",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\en-gb.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\eo.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\eo.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/eo.js",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\eo.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\es.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\es.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/es.js",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\es.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\es-co.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\es-co.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/es-co.js",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\es-co.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\et.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\et.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/et.js",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\et.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\eu.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\eu.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/eu.js",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\eu.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\fa.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\fa.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/fa.js",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\fa.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\fi.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\fi.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/fi.js",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\fi.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\fr.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\fr.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/fr.js",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\fr.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\gl.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\gl.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/gl.js",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\gl.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\gu.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\gu.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/gu.js",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\gu.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\he.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\he.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/he.js",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\he.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\hi.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\hi.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/hi.js",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\hi.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\hr.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\hr.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/hr.js",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\hr.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\hu.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\hu.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/hu.js",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\hu.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\id.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\id.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/id.js",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\id.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\it.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\it.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/it.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\it.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ja.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ja.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ja.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ja.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\jv.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\jv.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/jv.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\jv.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\kk.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\kk.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/kk.js",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\kk.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\km.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\km.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/km.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\km.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\kn.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\kn.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/kn.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\kn.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ko.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ko.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ko.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ko.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ku.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ku.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ku.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ku.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\lt.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\lt.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/lt.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\lt.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\lv.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\lv.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/lv.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\lv.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ms.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ms.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ms.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ms.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\nb.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\nb.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/nb.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\nb.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ne.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ne.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ne.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ne.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\nl.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\nl.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/nl.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\nl.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\no.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\no.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/no.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\no.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\oc.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\oc.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/oc.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\oc.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\pl.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\pl.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/pl.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\pl.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\pt.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\pt.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/pt.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\pt.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\pt-br.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\pt-br.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/pt-br.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\pt-br.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ro.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ro.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ro.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ro.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ru.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ru.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ru.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ru.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\si.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\si.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/si.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\si.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sk.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sk.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/sk.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\sk.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sl.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sl.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/sl.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\sl.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sq.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sq.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/sq.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\sq.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sr.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sr.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/sr.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\sr.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sr-latn.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sr-latn.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/sr-latn.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\sr-latn.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sv.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\sv.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/sv.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\sv.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\th.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\th.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/th.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\th.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\tk.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\tk.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/tk.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\tk.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\tr.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\tr.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/tr.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\tr.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\tt.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\tt.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/tt.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\tt.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ug.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ug.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ug.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ug.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\uk.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\uk.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/uk.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\uk.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ur.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\ur.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/ur.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\ur.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\uz.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\uz.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/uz.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\uz.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\vi.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\vi.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/vi.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\vi.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\zh.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\zh.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/zh.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\zh.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\zh-cn.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\build\\translations\\zh-cn.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/build/translations/zh-cn.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\build\\translations\\zh-cn.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\LICENSE.md",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\LICENSE.md",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/LICENSE.md",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\package.json",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\package.json",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/package.json",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\package.json"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\README.md",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\README.md",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/README.md",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\README.md"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\sample\\index.html",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\sample\\index.html",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/sample/index.html",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\sample\\index.html"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\sample\\styles.css",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\sample\\styles.css",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/sample/styles.css",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\sample\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\src\\ckeditor.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\src\\ckeditor.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/src/ckeditor.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\src\\ckeditor.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\webpack.config.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\webpack.config.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "Ckeditor/webpack.config.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Ckeditor\\webpack.config.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\base.css",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\css\\base.css",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "css/base.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\css\\base.css"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\checkLayout.css",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\css\\checkLayout.css",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "css/checkLayout.css",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\css\\checkLayout.css"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\layoutdm.css",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\css\\layoutdm.css",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "css/layoutdm.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\css\\layoutdm.css"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\login.css",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\css\\login.css",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\main.css",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\css\\main.css",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "css/main.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\register.css",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\css\\register.css",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "css/register.css",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\css\\register.css"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\css\\vendor.css",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\css\\vendor.css",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "css/vendor.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\css\\vendor.css"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\favicon.ico",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\favicon-16x16.png",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\favicon-16x16.png",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "favicon-16x16.png",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\favicon-16x16.png"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\favicon-32x32.png",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\favicon-32x32.png",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "favicon-32x32.png",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\favicon-32x32.png"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-01.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-01.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/avatars/user-01.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\images\\avatars\\user-01.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-02.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-02.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/avatars/user-02.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\avatars\\user-02.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-03.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-03.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/avatars/user-03.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\images\\avatars\\user-03.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-04.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-04.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/avatars/user-04.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\images\\avatars\\user-04.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-05.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-05.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/avatars/user-05.jpg",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\images\\avatars\\user-05.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-arrow-left.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-arrow-left.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/icon-arrow-left.svg",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\icon-arrow-left.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-arrow-right.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-arrow-right.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/icon-arrow-right.svg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\icon-arrow-right.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-arrow-up.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-arrow-up.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/icon-arrow-up.svg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\icon-arrow-up.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-audio.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-audio.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/icon-audio.svg",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\icon-audio.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-link.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-link.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/icon-link.svg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\icon-link.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-mail.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-mail.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/icon-mail.svg",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\icon-mail.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\iconmonstr-home-6.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\iconmonstr-home-6.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/iconmonstr-home-6.svg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\iconmonstr-home-6.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-quote.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-quote.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/icon-quote.svg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\icon-quote.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-search.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-search.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/icon-search.svg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\icon-search.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-search-w.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-search-w.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/icon-search-w.svg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\icon-search-w.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-video.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-video.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/icon-video.svg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\icon-video.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-behance.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-behance.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/social/icon-behance.svg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\social\\icon-behance.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-dribbble.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-dribbble.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/social/icon-dribbble.svg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\social\\icon-dribbble.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-email.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-email.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/social/icon-email.svg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\social\\icon-email.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-facebook.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-facebook.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/social/icon-facebook.svg",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\social\\icon-facebook.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-instagram.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-instagram.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/social/icon-instagram.svg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\social\\icon-instagram.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\iconmonstr-google-plus-1.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\iconmonstr-google-plus-1.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/social/iconmonstr-google-plus-1.svg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\social\\iconmonstr-google-plus-1.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\iconmonstr-user-circle-thin.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\iconmonstr-user-circle-thin.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/social/iconmonstr-user-circle-thin.svg",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\social\\iconmonstr-user-circle-thin.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-pinterest.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-pinterest.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/social/icon-pinterest.svg",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\social\\icon-pinterest.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-rss.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-rss.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/social/icon-rss.svg",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\social\\icon-rss.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-twitter.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\social\\icon-twitter.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/icons/social/icon-twitter.svg",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\social\\icon-twitter.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\logo.svg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\logo.svg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/logo.svg",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.svg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\logo-black.png",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\logo-black.png",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/logo-black.png",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-black.png"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\sample-image.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\sample-image.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/sample-image.jpg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sample-image.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\about\\about-1000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\about\\about-1000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/about/about-1000.jpg",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\about\\about-1000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\about\\about-2000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\about\\about-2000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/about/about-2000.jpg",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\about\\about-2000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\about\\about-500.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\about\\about-500.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/about/about-500.jpg",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\about\\about-500.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\contact\\contact-1000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\contact\\contact-1000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/contact/contact-1000.jpg",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\contact\\contact-1000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\contact\\contact-2000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\contact\\contact-2000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/contact/contact-2000.jpg",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\contact\\contact-2000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\contact\\contact-500.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\contact\\contact-500.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/contact/contact-500.jpg",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\contact\\contact-500.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\beetle-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\beetle-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/beetle-1200.jpg",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\beetle-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\beetle-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\beetle-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/beetle-600.jpg",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\beetle-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\cookies-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\cookies-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/cookies-1200.jpg",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\cookies-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\cookies-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\cookies-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/cookies-600.jpg",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\cookies-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\dew-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\dew-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/dew-1200.jpg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\dew-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\dew-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\dew-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/dew-600.jpg",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\dew-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-1-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-1-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/gallery/slide-1-1200.jpg",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\gallery\\slide-1-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-1-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-1-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/gallery/slide-1-600.jpg",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\gallery\\slide-1-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-2-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-2-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/gallery/slide-2-1200.jpg",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\gallery\\slide-2-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-2-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-2-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/gallery/slide-2-600.jpg",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\gallery\\slide-2-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-3-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-3-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/gallery/slide-3-1200.jpg",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\gallery\\slide-3-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-3-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\gallery\\slide-3-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/gallery/slide-3-600.jpg",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\gallery\\slide-3-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\guitarist-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\guitarist-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/guitarist-1200.jpg",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\guitarist-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\guitarist-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\guitarist-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/guitarist-600.jpg",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\guitarist-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\jump-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\jump-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/jump-1200.jpg",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\jump-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\jump-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\jump-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/jump-600.jpg",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\jump-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\lamp-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\lamp-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/lamp-1200.jpg",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\lamp-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\lamp-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\lamp-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/lamp-600.jpg",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\lamp-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\real-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\real-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/real-1200.jpg",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\real-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\real-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\real-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/real-600.jpg",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\real-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\rucksack-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\rucksack-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/rucksack-1200.jpg",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\rucksack-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\rucksack-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\rucksack-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/rucksack-600.jpg",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\rucksack-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\tulips-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\tulips-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/tulips-1200.jpg",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\tulips-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\tulips-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\tulips-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/tulips-600.jpg",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\tulips-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\walk-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\walk-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/walk-1200.jpg",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\walk-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\walk-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\walk-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/walk-600.jpg",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\walk-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\woodcraft-1200.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\woodcraft-1200.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/woodcraft-1200.jpg",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\woodcraft-1200.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\woodcraft-600.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\masonry\\woodcraft-600.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/masonry/woodcraft-600.jpg",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\masonry\\woodcraft-600.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-1000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-1000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/gallery/single-gallery-01-1000.jpg",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-1000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-2000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-2000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/gallery/single-gallery-01-2000.jpg",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-2000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-500.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-500.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/gallery/single-gallery-01-500.jpg",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-01-500.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-1000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-1000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/gallery/single-gallery-02-1000.jpg",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-1000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-2000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-2000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/gallery/single-gallery-02-2000.jpg",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-2000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-500.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-500.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/gallery/single-gallery-02-500.jpg",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-02-500.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-1000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-1000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/gallery/single-gallery-03-1000.jpg",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-1000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-2000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-2000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/gallery/single-gallery-03-2000.jpg",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-2000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-500.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-500.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/gallery/single-gallery-03-500.jpg",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\gallery\\single-gallery-03-500.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\318610460_1361993547876784_567438594511283267_n.png",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\318610460_1361993547876784_567438594511283267_n.png",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/standard/318610460_1361993547876784_567438594511283267_n.png",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\standard\\318610460_1361993547876784_567438594511283267_n.png"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\standard-1000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\standard-1000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/standard/standard-1000.jpg",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\standard\\standard-1000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\standard-2000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\standard-2000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/standard/standard-2000.jpg",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\standard\\standard-2000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\standard-500.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\single\\standard\\standard-500.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/thumbs/single/standard/standard-500.jpg",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\images\\thumbs\\single\\standard\\standard-500.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\wheel-1000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\wheel-1000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/wheel-1000.jpg",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\images\\wheel-1000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\wheel-2000.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\wheel-2000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/wheel-2000.jpg",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\images\\wheel-2000.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\wheel-500.jpg",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\images\\wheel-500.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "images/wheel-500.jpg",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\images\\wheel-500.jpg"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\create_post.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\js\\create_post.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "js/create_post.js",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\js\\create_post.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\custom_register.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\js\\custom_register.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "js/custom_register.js",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\js\\custom_register.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\customjs.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\js\\customjs.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "js/customjs.js",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\js\\customjs.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\ec.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\js\\ec.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "js/ec.js",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\js\\ec.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\jquery-3.2.1.min.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\js\\jquery-3.2.1.min.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "js/jquery-3.2.1.min.js",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.2.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\main.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\js\\main.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "js/main.js",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\modernizr.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\js\\modernizr.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "js/modernizr.js",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\js\\modernizr.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\plugins.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\js\\plugins.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "js/plugins.js",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\js\\plugins.js"
     },
     {
-      "Identity": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\js\\test_login.js",
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\js\\test_login.js",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\OSC\\Desktop\\DemoASP\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
       "BasePath": "_content/BE_blog_BTLLTWeb",
       "RelativePath": "js/test_login.js",
       "AssetKind": "All",

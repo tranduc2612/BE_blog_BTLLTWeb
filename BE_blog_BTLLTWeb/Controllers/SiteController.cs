@@ -18,5 +18,10 @@ namespace BE_blog_BTLLTWeb.Controllers
         {
             return View();
         }
+
+        public IActionResult FindAdvance()
+        {
+            return View();
+        }
     }
 }
