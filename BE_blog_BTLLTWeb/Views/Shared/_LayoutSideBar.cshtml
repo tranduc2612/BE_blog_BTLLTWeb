@@ -26,6 +26,8 @@
 	<link rel="stylesheet" href="../css/base.css" />
 	<link rel="stylesheet" href="../css/vendor.css" />
 	<link rel="stylesheet" href="../css/main.css" />
+	<link rel="stylesheet" href="../css/login.css" />
+	<link rel="stylesheet" href="../css/register.css"/>
 
 	<!-- script
 	================================================== -->
@@ -74,7 +76,7 @@
 						<ul class="topic__list"
 							style="margin: 0; justify-content: center">
 							<li class="topic__list-item">
-								<label class="btn btn--stroke label__topic" for="health">health</label>
+								<label class="btn btn--stroke label__topic" for="health">Health</label>
 								<input class="checkbox__topic"
 									   id="health"
 									   type="checkbox"
@@ -156,7 +158,7 @@
 
 			<nav class="header__nav-wrap">
 				<ul class="header__nav">
-					<li class="current"><a href="index.html" title="">Home</a></li>
+					<li class="current"><a asp-controller="Site" asp-action="Index" title="">Home</a></li>
 					<li class="has-children">
 						<a href="#0" title="">Blog Posts</a>
 						<ul class="sub-menu">
@@ -195,7 +197,7 @@
 					</li>
 
 					<li class="ss-user">
-						<a href="login.html">
+						<a asp-controller="User" asp-action="Profile">
 							<span class="screen-reader-text">User</span>
 						</a>
 					</li>
@@ -231,6 +233,7 @@
 	<script src="../js/plugins.js"></script>
 	<script src="../js/main.js"></script>
 	<script src="../js/create_post.js"></script>
+	<script src="../js/update_profile.js"></script>
 	<script language="JavaScript" type="text/javascript">
 		class MyUploadAdapter {
 			constructor(loader) {

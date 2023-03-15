@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WzgZM/JLdoVqLoUU6Ueoa/RhicizRzAOtH4wjRQ+aJs=",
+  "Hash": "snqf7gUY9vqm+2nLYSZxgWruSjL3/fO8GRySm0gYtcc=",
   "Source": "BE_blog_BTLLTWeb",
   "BasePath": "_content/BE_blog_BTLLTWeb",
   "Mode": "Default",
@@ -1443,23 +1443,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\base.css"
-    },
-    {
-      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\css\\checkLayout.css",
-      "SourceId": "BE_blog_BTLLTWeb",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
-      "BasePath": "_content/BE_blog_BTLLTWeb",
-      "RelativePath": "css/checkLayout.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\checkLayout.css"
     },
     {
       "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\css\\layoutdm.css",
@@ -3092,6 +3075,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\test_login.js"
+    },
+    {
+      "Identity": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\js\\update_profile.js",
+      "SourceId": "BE_blog_BTLLTWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ducch\\OneDrive\\Desktop\\Backend\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "BasePath": "_content/BE_blog_BTLLTWeb",
+      "RelativePath": "js/update_profile.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\update_profile.js"
     }
   ]
 }
