@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
+}
+
+
+<div class="custom-layout">
+	<!-- end error -->
+	<div class="login">
+		<div class="header__logo-custom">
+			<a class="site-logo" href="index.html">
+				<img
+					src="../images/logo-black.png"
+					alt="Homepage"
+								
+				/>
+			</a>
+						
+			<form>
+				<div>
+								<label for="accountInput-register">Your account</label>
+								<input
+									class="full-width"
+									type="Text"
+									placeholder="Username"
+									id="accountInput-register"
+									name="account"
+									required
+								/>
+								<div class="accountInput-register">
+									<ul>
+                                        <li class="empty_account"><span></span>This field isn't empty</li>
+										<li class="Account_required"><span></span>Username isn't exist</li>
+									</ul>
+								</div>
+							
+							</div>
+
+				<div>
+								<label for="emailInput-register">Your Email</label>
+								<input
+									class="full-width"
+									type="Email"
+									placeholder="Email"
+									id="emailInput-register"
+									name="Email"
+									required
+								/>
+								<div class="emailInput-register">
+									<ul>
+                                        <li class="empty_email"><span></span>This field isn't empty</li>
+										<li class="Email_required"><span></span>It isn't email</li>
+									</ul>
+								</div>
+							
+							</div>
+				<div>
+								<label for="passwordInput-register">Your password</label>
+								<input
+									class="full-width"
+									type="password"
+									placeholder="Password"
+									id="passwordInput-register"
+									name="password"
+									required
+								/>
+								<div class = "password_required">
+									<ul>
+                                        <li class="empty_pass"><span></span>This field isn't empty</li>
+										<li class="Lowercase"><span></span>One Lowercase Letter</li>
+										<li class= "Captital"><span></span>One Captital Letter</li>
+										<li class="Number" ><span></span>One Number</li>
+										<li class="Special"><span></span>One Special Character</li>
+										<li class="eight_ch"><span></span>At Least 8 Characters</li>
+									</ul>
+								</div>
+							</div>
+
+				<div>
+								<label for="passwordInput-register-check">Your password</label>
+                            	<input
+                                	class="full-width"
+									placeholder="Password Check"
+									id="passwordInput-register-check"
+									type="password"
+									required
+									name="password"
+                            	/>
+                           		 <div class = "password_required_check">
+                                	<ul>
+                                        <li class="empty"><span></span>This field isn't empty</li>
+                                    	<li class="check"><span></span>The entered passwords don't match</li>
+									</ul>
+								</div>
+                            </div>                                                  
+
+				<input
+					class="btn--primary full-width btn-login"
+					type="submit"
+					value="Submit"
+				/>
+
+				<div class="Oug9xv Z8OMtU">Do you already have an account?   <a class="wzgwUg" asp-controller="Auth" asp-action="Login">Login</a></div>
+			</form>
+		</div>
+	</div>
+</div>
