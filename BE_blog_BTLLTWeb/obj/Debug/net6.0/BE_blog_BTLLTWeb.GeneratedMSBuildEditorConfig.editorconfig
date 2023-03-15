@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\OSC\Desktop\DemoASP\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/OSC/Desktop/DemoASP/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Post/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGVQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/OSC/Desktop/DemoASP/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
