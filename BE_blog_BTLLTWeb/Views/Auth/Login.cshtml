@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
+}
+
+
+<div class="custom-layout">
+	<!-- end error -->
+	<div class="login">
+		<div class="header__logo-custom">
+			<a class="site-logo" href="index.html">
+				<img src="../images/logo-black.png"
+					 alt="Homepage" />
+			</a>
+
+			<form>
+				<div>
+					<label for="accountInput-login">Your account</label>
+					<input class="full-width account-error"
+						   type="Text"
+						   placeholder="Username"
+						   id="accountInput-login"
+						   name="account"
+						   required />
+					<div class="account_required">
+						<ul>
+							<li class="username"><span></span>This field isn't empty</li>
+							<li class="d-none"><span></span>This account is wrong !</li>
+						</ul>
+					</div>
+
+
+				</div>
+
+				<div>
+					<label for="passwordInput-login">Your password</label>
+					<input class="full-width pass-error"
+						   type="password"
+						   placeholder="Password"
+						   id="passwordInput-login"
+						   name="password"
+						   required />
+					<div class="password_required">
+						<ul>
+							<li class="empty"><span></span>This field isn't empty</li>
+							<li class="Lowercase"><span></span>One Lowercase Letter</li>
+							<li class="Captital"><span></span>One Captital Letter</li>
+							<li class="Number"><span></span>One Number</li>
+							<li class="Special"><span></span>One Special Character</li>
+							<li class="eight_ch"><span></span>At Least 8 Characters</li>
+						</ul>
+					</div>
+				</div>
+
+				<label class="add-bottom">
+					<input type="checkbox" class="shadow" style="width:19px ; height:19px" />
+					<span class="label-text">Remember me</span>
+				</label>
+
+				<input class="btn--primary full-width btn-login"
+					   type="submit"
+					   value="Submit" />
+
+				<div class="Oug9xv Z8OMtU">Are you new to typerite?   <a class="wzgwUg" href="register.html">Register</a></div>
+			</form>
+		</div>
+	</div>
+</div>
+
+			
+
