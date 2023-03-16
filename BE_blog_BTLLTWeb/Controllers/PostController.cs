@@ -13,5 +13,20 @@ namespace BE_blog_BTLLTWeb.Controllers
         {
             return View();
         }
-    }
+
+		public IActionResult DetailPost()
+		{
+			return View();
+		}
+
+		public IActionResult Category()
+		{
+			return View();
+		}
+
+        public IActionResult YourPost()
+        {
+            return View();
+        }
+	}
 }

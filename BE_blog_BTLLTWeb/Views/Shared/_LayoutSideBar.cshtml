@@ -162,15 +162,15 @@
 					<li class="has-children">
 						<a href="#0" title="">Blog Posts</a>
 						<ul class="sub-menu">
-							<li><a href="category.html">All Post</a></li>
-							<li><a href="your-post.html">Your Post</a></li>
-							<li><a href="create-post.html" title="">Create Post</a></li>
+							<li><a asp-controller="Post" asp-action="Category">All Post</a></li>
+							<li><a asp-controller="Post" asp-action="YourPost">Your Post</a></li>
+							<li><a asp-controller="Post" asp-action="CreatePost">Create Post</a></li>
 						</ul>
 					</li>
 					<li class="has-children">
 						<a href="#0" title="">Categories</a>
 						<ul class="sub-menu">
-							<li><a href="category.html">Lifestyle</a></li>
+							<li><a asp-controller="Post" asp-action="Category" asp-route-maloai="Lifestyle">Lifestyle</a></li>
 							<li><a href="category.html">Health</a></li>
 							<li><a href="category.html">Family</a></li>
 							<li><a href="category.html">Management</a></li>

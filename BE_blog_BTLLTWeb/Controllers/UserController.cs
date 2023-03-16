@@ -9,5 +9,7 @@ namespace BE_blog_BTLLTWeb.Controllers
 		{
 			return View();
 		}
+
+		
 	}
 }
