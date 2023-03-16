@@ -1,7 +1,7 @@
 .d-none{
     display: none;
 }
-img{
+.img-logo{
     width: 200px;
     height: 50px;
 }
@@ -130,7 +130,7 @@ a.wzgwUg{
         font-size: 12px;
         font-family: "Heebo", sans-serif;
     }
-    img{
+    .img-logo{
         width: 120px;
         height: 29px;
     }

@@ -1,8 +1,8 @@
 .d-none{
     display: none;
 }
-img{
-    width: 200px;
+.img-logo{
+    width: 201px;
     height: 50px;
 }
 .password_required{
@@ -233,7 +233,7 @@ a.wzgwUg{
         font-size: 12px;
         font-family: "Heebo", sans-serif;
     }
-    img{
+    .img-logo{
         width: 120px;
         height: 29px;
     }
