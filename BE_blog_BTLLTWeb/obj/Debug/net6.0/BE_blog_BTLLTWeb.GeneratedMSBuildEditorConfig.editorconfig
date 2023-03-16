@@ -24,8 +24,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Post/Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Post/CreatePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGVQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Post/DetailPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZXRhaWxQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Post/YourPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxZb3VyUG9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Shared/Error.cshtml]
