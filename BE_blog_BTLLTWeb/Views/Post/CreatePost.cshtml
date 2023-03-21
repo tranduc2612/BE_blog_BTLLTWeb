@@ -9,7 +9,7 @@
 		<h1 class="h2">Create post</h1>
 	</header>
 
-	<form class="form__create" action="">
+	<form class="form__create" action="createpost" method="post" enctype="multipart/form-data">
 		<div class="form__create-item create-title">
 			<label class="create-title" for="title-create-post">Your title</label>
 			<input id="title-create-post"
@@ -24,7 +24,7 @@
 				   name="image"
 				   class="custom-file-input"
 				   type="file" />
-			<image class="image-create-post-preview" src="../images/thumbs/masonry/beetle-1200.jpg" />
+			<image class="image-create-post-preview" src="" />
 			<button type="button" class="btn image-create-post-btn">
 				Click to add image
 			</button>
@@ -191,7 +191,7 @@
 			_initRequest() {
 				const xhr = (this.xhr = new XMLHttpRequest());
 
-				xhr.open("POST", '@Url.Action("UpLoadFile","Site")', true);
+				xhr.open("POST", '@Url.Action("UpLoadPostImage","Post")', true);
 				xhr.responseType = "json";
 			}
 			_initListeners(resolve, reject, file) {
@@ -272,12 +272,4 @@
 				console.error(error);
 			});
 	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/flatpickr.js"></script>
-	<script>
-		$("#rangeDate").flatpickr({
-			mode: "range",
-			dateFormat: "Y-m-d",
-		});
-	</script>
-
 	}

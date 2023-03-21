@@ -317,6 +317,22 @@
       "PackagePath": "staticwebassets\\Ckeditor\\webpack.config.js"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\iduser1\\1679329163045334915478_1135697117202135_5228134943451106029_n.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\iduser1\\1679329163045334915478_1135697117202135_5228134943451106029_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\iduser1\\1679329186380334915478_1135697117202135_5228134943451106029_n.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\iduser1\\1679329186380334915478_1135697117202135_5228134943451106029_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\iduser1\\1679329642743334915478_1135697117202135_5228134943451106029_n.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\iduser1\\1679329642743334915478_1135697117202135_5228134943451106029_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\iduser1\\1679396617413334915478_1135697117202135_5228134943451106029_n.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\iduser1\\1679396617413334915478_1135697117202135_5228134943451106029_n.jpg"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\android-chrome-192x192.png",
       "PackagePath": "staticwebassets\\android-chrome-192x192.png"
     },
@@ -365,6 +381,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\images\\apple-touch-icon.png"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-01.jpg",
       "PackagePath": "staticwebassets\\images\\avatars\\user-01.jpg"
     },
@@ -383,6 +403,14 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-05.jpg",
       "PackagePath": "staticwebassets\\images\\avatars\\user-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\images\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\images\\favicon-32x32.png"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\icons\\icon-arrow-left.svg",
@@ -479,6 +507,10 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\sample-image.jpg",
       "PackagePath": "staticwebassets\\images\\sample-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\site.webmanifest",
+      "PackagePath": "staticwebassets\\images\\site.webmanifest"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\thumbs\\about\\about-1000.jpg",
