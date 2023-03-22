@@ -233,7 +233,7 @@
 	<script src="../js/plugins.js"></script>
 	<script src="../js/main.js"></script>
 	<script src="../js/update_profile.js"></script>
-	<script src="../js/custom_register.js"></script>
+	@*<script src="../js/custom_register.js"></script>*@
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$(".slider-rank").slick({
@@ -294,7 +294,7 @@
 			dateFormat: "Y-m-d",
 		});
 	</script>
-
+	@RenderSection("Login",required:false)
 	@RenderSection("createpost", required: false)
 
 </body>

@@ -1,9 +1,20 @@
-﻿
+﻿@model BE_blog_BTLLTWeb.Models.Account
 @{
     ViewData["Title"] = "Login";
     Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
 }
 
+@{
+	var isNone = "";
+	if (ViewBag.isErr == null)
+	{
+		isNone = "d-none";	
+	}
+	else
+	{
+		isNone = "";
+	}
+}
 
 <div class="custom-layout">
 	<!-- end error -->
@@ -14,59 +25,65 @@
 					 alt="Homepage" />
 			</a>
 
-			<form>
-				<div>
-					<label for="accountInput-login">Your account</label>
-					<input class="full-width account-error"
-						   type="Text"
-						   placeholder="Username"
-						   id="accountInput-login"
-						   name="account"
-						   required />
-					<div class="account_required">
-						<ul>
+			@using (@Html.BeginForm("Login", "Auth", FormMethod.Post))
+			{
+				@Html.ValidationSummary(false, "", new { @class = "text-danger" })
+					<div>
+						<label for="accountInput-login">Your account</label>
+						@Html.TextBoxFor(m => m.UserName,new {id="accountInput-login", placeholder = "UserName", @class = "full-width account-error",type="Text" })
+						<div class="account_required">
+							<ul>
 							<li class="username"><span></span>This field isn't empty</li>
-							<li class="d-none"><span></span>This account is wrong !</li>
-						</ul>
+							<li class="username @isNone"><span>This account is wrong !</span></li>
+							</ul>
+						</div>
+
+
 					</div>
 
+					<div>
+						<label for="passwordInput-login">Your password</label>
+						@Html.TextBoxFor(m => m.Pass,new {id="passwordInput-login", placeholder = "Password", @class = "full-width pass-error",type="PassWord" })
 
-				</div>
-
-				<div>
-					<label for="passwordInput-login">Your password</label>
-					<input class="full-width pass-error"
-						   type="password"
-						   placeholder="Password"
-						   id="passwordInput-login"
-						   name="password"
-						   required />
-					<div class="password_required">
-						<ul>
-							<li class="empty"><span></span>This field isn't empty</li>
-							<li class="Lowercase"><span></span>One Lowercase Letter</li>
-							<li class="Captital"><span></span>One Captital Letter</li>
-							<li class="Number"><span></span>One Number</li>
-							<li class="Special"><span></span>One Special Character</li>
-							<li class="eight_ch"><span></span>At Least 8 Characters</li>
-						</ul>
+						<div class="password_required">
+							<ul>
+								<li class="empty"><span></span>This field isn't empty</li>
+								<li class="Lowercase"><span></span>One Lowercase Letter</li>
+								<li class="Captital"><span></span>One Captital Letter</li>
+								<li class="Number"><span></span>One Number</li>
+								<li class="Special"><span></span>One Special Character</li>
+								<li class="eight_ch"><span></span>At Least 8 Characters</li>
+							</ul>
+						</div>
 					</div>
-				</div>
 
-				<label class="add-bottom">
-					<input type="checkbox" class="shadow" style="width:19px ; height:19px" />
-					<span class="label-text">Remember me</span>
-				</label>
+					<label class="add-bottom">
+						<input type="checkbox" class="shadow" style="width:19px ; height:19px" />
+						<span class="label-text">Remember me</span>
+					</label>
 
-				<input class="btn--primary full-width btn-login"
+					<input class="btn--primary full-width btn-login"
 					   type="submit"
 					   value="Submit" />
 
-				<div class="Oug9xv Z8OMtU">Are you new to typerite?   <a class="wzgwUg" asp-controller="Auth" asp-action="Register">Register</a></div>
-			</form>
+					<div class="Oug9xv Z8OMtU">Are you new to typerite?   <a class="wzgwUg" asp-controller="Auth" asp-action="Register">Register</a></div>
+			}
+			
 		</div>
 	</div>
 </div>
 
+@{
+	if(isNone != null)
+	{
+		@RenderSection("data",required:false)
+	}
+}
+
+
+@section Login{
+	<script src="../js/customjs.js"></script>
+
+}
 			
 
