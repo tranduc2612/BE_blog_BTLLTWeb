@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BE_blog_BTLLTWeb.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
@@ -7,7 +8,7 @@ namespace BE_blog_BTLLTWeb.Controllers
     public class PostController : Controller
     {
         private IHostingEnvironment _env;
-        
+        BlogBtlContext db = new BlogBtlContext();
         public PostController(ILogger<PostController> logger, IHostingEnvironment _environment)
         {
             _env = _environment;
@@ -16,6 +17,7 @@ namespace BE_blog_BTLLTWeb.Controllers
 
         public IActionResult Index()
         {
+            var lst = db.Accounts.ToList();
             return View();
         }
 
