@@ -5,11 +5,10 @@ namespace BE_blog_BTLLTWeb.Controllers
 {
     public class SiteController : Controller
     {
-        BlogBtlContext db = new BlogBtlContext();
         public IActionResult Index()
         {
-            var lst = db.Accounts.ToList();
-            return View(lst);
+
+            return View();
         }
 
         public IActionResult Contact()

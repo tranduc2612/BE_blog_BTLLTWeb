@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Configuration;
 
 namespace BE_blog_BTLLTWeb.Models;
 
 public partial class Account
 {
     public int IdAccount { get; set; }
-
+    [Required(ErrorMessage = "Please enter this field !")]
     public string UserName { get; set; } = null!;
 
+    [Required(ErrorMessage = "Please enter this field !")]
+	//[RegularExpression(@"/[a-z][A-Z][0-9][!@#$%^&*]/g",
+	//	 ErrorMessage = "Characters are not allowed.")]
     public string Pass { get; set; } = null!;
 
     public string? Fullname { get; set; }

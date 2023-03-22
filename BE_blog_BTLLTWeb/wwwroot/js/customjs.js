@@ -1,8 +1,10 @@
 let isSubmitPass = false;
 let isSubmitAccount = false;
 $(".btn-login").on("click", function (e) {
+	
 	if (!isSubmitPass || !isSubmitAccount) {
 		e.preventDefault();
+
 	}
 	
 });
@@ -23,7 +25,7 @@ $("#accountInput-login").on("keyup", function () {
 	accountValue = $(this).val();
 	let count = 0;
 
-	if (accountValue != "") {
+	if (accountValue.trim() != "") {
 		$(".username").addClass("active");
 		
 	} else {
