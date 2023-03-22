@@ -5,73 +5,72 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BE_blog_BTLLTWeb
 build_property.RootNamespace = BE_blog_BTLLTWeb
-build_property.ProjectDir = C:\Users\OSC\Desktop\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb\
+build_property.ProjectDir = C:\Users\ducch\OneDrive\Desktop\Backend\BE_blog_BTLLTWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\OSC\Desktop\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb
+build_property.MSBuildProjectDirectory = C:\Users\ducch\OneDrive\Desktop\Backend\BE_blog_BTLLTWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Auth/Login.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Auth/Register.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Post/CreatePost.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Post/CreatePost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGVQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Shared/Error.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Shared/_Footer.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Shared/_LayoutWithOutSidebar.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Shared/_LayoutWithOutSidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRXaXRoT3V0U2lkZWJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Site/AboutUs.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Site/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Site/Contact.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Site/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Site/FindAdvance.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Site/FindAdvance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxGaW5kQWR2YW5jZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Site/Index.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Site/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/User/Profile.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/_ViewImports.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/_ViewStart.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OSC/Desktop/BE_blog_BTLLTWeb/BE_blog_BTLLTWeb/Views/Shared/_LayoutSideBar.cshtml]
+[C:/Users/ducch/OneDrive/Desktop/Backend/BE_blog_BTLLTWeb/Views/Shared/_LayoutSideBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTaWRlQmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-1pj8yua7pa
