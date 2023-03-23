@@ -1,33 +1,31 @@
-﻿using System;
+﻿using Microsoft.Build.Framework;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Configuration;
+using Xunit;
+using Xunit.Sdk;
 
 namespace BE_blog_BTLLTWeb.Models;
 
 public partial class Account
 {
     public int IdAccount { get; set; }
-    [Required(ErrorMessage = "Please enter this field !")]
-    public string UserName { get; set; } = null!;
 
-    [Required(ErrorMessage = "Please enter this field !")]
-	//[RegularExpression(@"/[a-z][A-Z][0-9][!@#$%^&*]/g",
-	//	 ErrorMessage = "Characters are not allowed.")]
+    public string UserName { get; set; } = null!;
+    
     public string Pass { get; set; } = null!;
 
-	[Required(ErrorMessage = "Please enter this field !")]
+	[Required(ErrorMessage = "Please enter student name.")]
 	public string? Fullname { get; set; }
 
     public int? IdAdmin { get; set; }
 
-	[Required(ErrorMessage = "Please enter this field !")]
-	public string? PhoneNumber { get; set; }
+    public string? PhoneNumber { get; set; }
 
     public string? Avatar { get; set; }
 
-	[Required(ErrorMessage = "Please enter this field !")]
-	public string? Address { get; set; }
+    public string? Address { get; set; }
+
+    public string? Email { get; set; }
 
     public virtual ICollection<Blog> Blogs { get; } = new List<Blog>();
 

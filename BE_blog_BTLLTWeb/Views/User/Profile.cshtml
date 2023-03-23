@@ -1,8 +1,20 @@
-﻿
+﻿@model BE_blog_BTLLTWeb.Models.Account;
+
 @{
     ViewData["Title"] = "Profile";
     Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
 }
+
+@{
+
+	var avatar = Context.Session.GetString("Avatar");
+	if (avatar == null)
+	{
+		avatar = "./../images/icons/social/iconmonstr-user-circle-thin.svg";
+	}
+}
+
+
 
 <div class="s-content">
 	<header class="listing-header">
@@ -13,73 +25,85 @@
 		<div class="layer-avatar">
 			<i class="fa-solid fa-pen-to-square"></i>
 		</div>
-		<img class="img-avatar" src="../images/avatars/user-05.jpg" alt="" />
+		<img class="img-avatar" src="@avatar" alt="" />
 		<input class="input-avatar" type="file" />
 	</div>
 
 	<div class="profile-form">
-		<form>
+		@using (Html.BeginForm("Profile", "User"))
+		{
 			<div class="profile-field">
 				<label for="account" style="font-size: 2rem; margin-bottom: 0">Name Account</label>
-				<input class="full-width input-field"
-					   type="text"
-					   value="minhducvn"
-					   id="account"
-					   disabled />
-			</div>
+				@Html.TextBoxFor(x=>x.UserName,new{ @id="account",@class="full-width input-field",@type="text",@disabled=true,@Value=Model.UserName.ToString()})
 
-			<div class="profile-field">
-				<label for="full_name" style="font-size: 2rem; margin-bottom: 0">Full Name</label>
-				<input class="full-width input-field"
+				@*<input class="full-width input-field"
+			type="text"
+			value="minhducvn"
+			id="account"
+			disabled />*@
+			</div>
+			
+
+				<div class="profile-field">
+					<label for="full_name" style="font-size: 2rem; margin-bottom: 0">Full Name</label>
+					<input class="full-width input-field"
 					   type="text"
 					   name="full_name"
 					   id="full_name" />
-			</div>
+				@Html.TextBoxFor(x=>x.Fullname,new{ @name="full_name",@id="full_name",@class="full-width input-field",@type="text",@disabled=true,@Value=Model.UserName.ToString()})
+				@Html.ValidationMessageFor(m => m.Fullname, "", new { @class = "text-danger",style="color:red" })
 
-			<div class="profile-field">
-				<label for="email" style="font-size: 2rem; margin-bottom: 0">Email</label>
-				<input class="full-width input-field"
+				</div>
+
+				<div class="profile-field">
+					<label for="email" style="font-size: 2rem; margin-bottom: 0">Email</label>
+					<input class="full-width input-field"
 					   type="email"
 					   name="email"
 					   id="email" />
-			</div>
+				</div>
 
-			<div class="profile-field">
-				<label for="address" style="font-size: 2rem; margin-bottom: 0">Address</label>
-				<input class="full-width input-field"
+				<div class="profile-field">
+					<label for="address" style="font-size: 2rem; margin-bottom: 0">Address</label>
+					<input class="full-width input-field"
 					   type="text"
 					   name="address"
 					   id="address" />
-			</div>
+				</div>
 
-			<div class="profile-field">
-				<label for="phone" style="font-size: 2rem; margin-bottom: 0">Phone Number</label>
-				<input class="full-width input-field"
+				<div class="profile-field">
+					<label for="phone" style="font-size: 2rem; margin-bottom: 0">Phone Number</label>
+					<input class="full-width input-field"
 					   type="number"
 					   name="phone"
 					   id="phone"
 					   onkeydown="return event.keyCode !== 69" />
-			</div>
+				</div>
 
-			<div class="profile-field">
-				<label for="password" style="font-size: 2rem; margin-bottom: 0">Password</label>
-				<input class="full-width input-field"
+				<div class="profile-field">
+					<label for="password" style="font-size: 2rem; margin-bottom: 0">Password</label>
+					<input class="full-width input-field"
 					   type="password"
 					   name=""
 					   id="password" />
-			</div>
+				</div>
 
-			<div class="profile-field">
-				<label for="password_confirm"
+				<div class="profile-field">
+					<label for="password_confirm"
 					   style="font-size: 2rem; margin-bottom: 0">Password Confirm</label>
-				<input class="full-width input-field"
+					<input class="full-width input-field"
 					   type="password"
 					   name="password-confirm"
 					   id="password_confirm" />
-			</div>
+				</div>
 
-			<button class="btn full-width btn-primary">Update</button>
-		</form>
+				<button class="btn full-width btn-primary">Update</button>
+		}
+		
+
+		
+
+
 	</div>
 </div>
 

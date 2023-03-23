@@ -6,13 +6,16 @@
 
 @{
 	var isExist = "";
+	var messDis = "";
 	if (ViewBag.isExist == null)
 	{
+		messDis = "";
 		isExist = "d-none";
 	}
 	else
 	{
 		isExist = "";
+		messDis = "d-block";
 	}
 }
 
@@ -32,7 +35,7 @@
 					<div>
 						<label for="accountInput-login">Your account</label>
 						@Html.TextBoxFor(m => m.UserName,new {id="accountInput-login", placeholder = "UserName", @class = "full-width account-error",type="Text" })
-						<div class="account_required">
+						<div class="account_required @messDis">
 							<ul>
 							<li class="username"><span></span>This field isn't empty</li>
 							<li class="username @isExist"><span>PassWord or Account is wrong !</span></li>
@@ -45,7 +48,6 @@
 					<div>
 						<label for="passwordInput-login">Your password</label>
 						@Html.TextBoxFor(m => m.Pass,new {id="passwordInput-login", placeholder = "Password", @class = "full-width pass-error",type="PassWord" })
-
 						<div class="password_required">
 							<ul>
 								<li class="empty"><span></span>This field isn't empty</li>
@@ -69,7 +71,9 @@
 
 					<div class="Oug9xv Z8OMtU">Are you new to typerite?   <a class="wzgwUg" asp-controller="Auth" asp-action="Register">Register</a></div>
 			}
-			
+			@{
+				Html.EndForm();
+			}
 		</div>
 	</div>
 </div>

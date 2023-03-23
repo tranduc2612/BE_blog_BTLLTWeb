@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TqlUQFRDxYcPpICROCHkuk3iidv9e+rVrJ4DjxBuynfioL9k9Brra90E4GwABomaN3mLgfq+z48sMy5jl/eT3w==",
+  "dgSpecHash": "vsm8vTDia1N5irgB0BzpyMLky66NG1ugmpSsgPADqs4Y1RzTPlLEJVvQT+1L2VKJaaly3HTyITYuPBFGJSBESA==",
   "success": true,
   "projectFilePath": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb.csproj",
   "expectedPackageFiles": [
@@ -196,7 +196,10 @@
     "C:\\Users\\OSC\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\OSC\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\OSC\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\OSC\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\OSC\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\OSC\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\OSC\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\OSC\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,4 +1,19 @@
-﻿<!DOCTYPE html>
+﻿@{
+	var currentUser = Context.Session.GetString("UserName");
+	var fullName = Context.Session.GetString("FullName");
+	var avatar = Context.Session.GetString("Avatar");
+	var imgavatar = "";
+	if (avatar == null)
+	{
+		avatar = "./../images/icons/social/iconmonstr-user-circle-thin.svg";
+	}
+	else
+	{
+		imgavatar = "border-radius: 50%;height: 50px;width:50px;";
+	}
+
+}
+<!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
 	<!--- basic page needs
@@ -41,7 +56,8 @@
 	<link rel="manifest" href="../images/site.webmanifest" />
 	<style>
 		.header__social .ss-user a::after {
-			background-image: url(./../images/icons/social/iconmonstr-user-circle-thin.svg);
+			@imgavatar
+			background-image: url(@avatar);
 		}
 	</style>
 </head>
@@ -178,36 +194,62 @@
 							<li><a href="#">Other...</a></li>
 						</ul>
 					</li>
+					@if (currentUser != null)
+					{
+						<li><a asp-controller="User" asp-action="Profile" title="">Your profile</a></li>
+					}
 					<li><a asp-controller="site" asp-action="FindAdvance" title="">Find Advance</a></li>
 					<li><a asp-controller = "site" asp-action="AboutUs" title="">About us</a></li>
 					<li><a asp-controller = "site" asp-action="Contact" title="">Contact</a></li>
+					@if(currentUser != null)
+					{
+						<li><a asp-controller="Auth" asp-action="LogOut" title="">LogOut</a></li>
+					}
 				</ul>
 				<!-- end header__nav -->
 
 				<ul class="header__social">
-					<li class="ss-facebook">
-						<a href="https://facebook.com/">
-							<span class="screen-reader-text">Facebook</span>
-						</a>
-					</li>
-					<li class="ss-google">
-						<a href="https://google.com/">
-							<span class="screen-reader-text">Google</span>
-						</a>
-					</li>
+					@if (currentUser != null)
+					{
+						<li class="ss-user">
+							<a asp-controller="User" asp-action="Profile">
+								<span class="screen-reader-text">User</span>
+							</a>
+							<span class="name-user" onclick="()=>{Document.queryselector('screen-reader-text').click()">@if (fullName != null)
+								{
+									@fullName
+								}
+								else
+								{
+									@currentUser
+								}
+							</span>
+						</li>
+					}
+					else
+					{
+						<li class="ss-facebook">
+							<a href="https://facebook.com/">
+								<span class="screen-reader-text">Facebook</span>
+							</a>
+						</li>
+						<li class="ss-google">
+							<a href="https://google.com/">
+								<span class="screen-reader-text">Google</span>
+							</a>
+						</li>
 
-					<li class="ss-user">
-						<a asp-controller="Auth" asp-action="Login">
-							<span class="screen-reader-text">User</span>
-						</a>
-					</li>
+						<li class="ss-user">
+							<a asp-controller="Auth" asp-action="Login">
+								<span class="screen-reader-text">User</span>
+							</a>
+						</li>
 
-					<li class="ss-user d-none">
-						<a href="#">
-							<span class="screen-reader-text">User</span>
-						</a>
-						<span class="name-user" onclick="">Trần Minh Đức</span>
-					</li>
+					}
+
+					
+
+					
 				</ul>
 			</nav>
 			<!-- end header__nav-wrap -->

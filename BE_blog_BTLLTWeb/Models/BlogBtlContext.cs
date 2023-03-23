@@ -6,17 +6,8 @@ namespace BE_blog_BTLLTWeb.Models;
 
 public partial class BlogBtlContext : DbContext
 {
-    string ConnectionString;
-
     public BlogBtlContext()
     {
-        var config = new ConfigurationBuilder()
-        .AddJsonFile("appsettings.json")
-        .AddEnvironmentVariables()
-        .Build();
-
-        // Get values from configuration
-        ConnectionString = config["MyAppSettings:ConnectString"];
     }
 
     public BlogBtlContext(DbContextOptions<BlogBtlContext> options)
@@ -36,7 +27,7 @@ public partial class BlogBtlContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer(ConnectionString);
+        => optionsBuilder.UseSqlServer("Data Source=MSI\\SQLEXPRESS;Initial Catalog=Blog_BTL;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -51,6 +42,9 @@ public partial class BlogBtlContext : DbContext
                 .HasMaxLength(200)
                 .HasColumnName("address");
             entity.Property(e => e.Avatar).HasColumnType("ntext");
+            entity.Property(e => e.Email)
+                .HasMaxLength(100)
+                .HasColumnName("email");
             entity.Property(e => e.Fullname)
                 .HasMaxLength(200)
                 .HasColumnName("fullname");

@@ -3,7 +3,19 @@
     Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
 }
 
-
+@{
+	var disMess = "";
+	var dNone = "d-none";
+	if (ViewBag.isExist)
+	{
+		disMess = "d-block";
+		dNone = "";
+	}
+	else
+	{
+		disMess = "";
+	}
+}
 
 
 <div class="custom-layout">
@@ -30,12 +42,24 @@
 									name="account"
 								/>
 								
-								<div class="accountInput-register">
+								<div class="accountInput-register @disMess">
 									<ul>
                                         <li class="empty_account"><span></span>This field isn't empty</li>
-										<li class="d-none Account_required"><span></span>Username is exist</li>
+										<li class="@dNone Account_required"><span></span>Username is exist</li>
 									</ul>
 								</div>
+
+								<div>
+								<label for="accountInput-register">Your FullName</label>
+								
+								<input
+									class="full-width"
+									type="Text"
+									placeholder="Full Name"
+									id="accountInput-register"
+									name="fullname"
+								/>
+								
 							
 							</div>
 

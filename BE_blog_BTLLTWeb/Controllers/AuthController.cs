@@ -1,11 +1,15 @@
 ﻿using BE_blog_BTLLTWeb.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.RegularExpressions;
 
 namespace BE_blog_BTLLTWeb.Controllers
 {
     public class AuthController : Controller
     {
         BlogBtlContext db = new BlogBtlContext();
+		private static readonly Regex PassRegex = new Regex(@"^[a-zA-Z0-9!@#$%^&*]", RegexOptions.Compiled);
+		private static readonly Regex EmailRegex = new Regex(@"^([\w-]+(\?\:\.[\w-]+)*)@((\?\:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(\?\:\.[a-z]{2})?)$", RegexOptions.Compiled);
+
 		public IActionResult Login()
         {
             return View();
@@ -18,8 +22,14 @@ namespace BE_blog_BTLLTWeb.Controllers
 			if (acc != null)
 			{
                 HttpContext.Session.SetString("UserName", acc.UserName.ToString());
-                HttpContext.Session.SetString("idUser", acc.IdAccount.ToString());
-                return RedirectToAction("Index", "Site");
+                HttpContext.Session.SetInt32("idUser", acc.IdAccount);
+				HttpContext.Session.SetString("FullName", acc.Fullname.ToString());
+				if (acc.Avatar != null)
+				{
+					HttpContext.Session.SetString("Avatar", acc.Avatar.ToString());
+				}
+
+				return RedirectToAction("Index", "Site");
 			}
 			else
 			{
@@ -30,31 +40,47 @@ namespace BE_blog_BTLLTWeb.Controllers
 
 		public IActionResult Register()
         {
-            return View();
+			ViewBag.isExist = false;
+			return View();
         }
 
         [HttpPost]
-		public IActionResult Register(string account,string email,string passord,string passwordCheck)
+		public IActionResult Register(string account,string email,string password, string passwordCheck,string fullname)
 		{
-			if(passord != passwordCheck || account == "")
+			bool isPass = PassRegex.IsMatch(password);
+			bool isEmail = EmailRegex.IsMatch(email);
+			if (password == "" || password != passwordCheck || account == "" || !isPass || !isEmail)
 			{
 				return View();
 			}
-			Account acc = db.Accounts.Where(x => x.UserName == account && x.Pass == passord).FirstOrDefault();
+			Account acc = db.Accounts.Where(x => x.UserName == account || x.Email == email).FirstOrDefault();
 			if(acc != null) { 
-				// tai khoan da ton tai
+				ViewBag.isExist = true;
                 return View();
             }
             else
 			{
 				Account newAccount = new Account();
 				newAccount.UserName = account;
-				newAccount.Pass = passord;
-				//newAccount.
-				//db.Accounts.Add(acc);
-                return RedirectToAction("Index", "Site");
+				newAccount.Pass = password;
+				newAccount.Email = email;
+				newAccount.Fullname = fullname;
+				db.Accounts.Add(newAccount);
+				db.SaveChanges();
+				return RedirectToAction("Login", "Auth");
             }
 
         }
+
+		public IActionResult LogOut()
+		{
+			HttpContext.Session.Clear();
+			//HttpContext.Session.Remove("UserName");
+			//HttpContext.Session.Remove("UserName");
+			//HttpContext.Session.Remove("UserName");
+			//HttpContext.Session.Remove("UserName");
+
+			return RedirectToAction("Index","Site");
+		}
 	}
 }
