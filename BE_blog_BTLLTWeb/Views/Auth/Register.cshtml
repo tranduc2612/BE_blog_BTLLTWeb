@@ -1,8 +1,9 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Register";
     Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
 }
+
+
 
 
 <div class="custom-layout">
@@ -17,21 +18,22 @@
 				/>
 			</a>
 						
-			<form>
+			<form asp-action="Register" asp-controller="Auth" method="post">
 				<div>
 								<label for="accountInput-register">Your account</label>
+								
 								<input
 									class="full-width"
 									type="Text"
 									placeholder="Username"
 									id="accountInput-register"
 									name="account"
-									required
 								/>
+								
 								<div class="accountInput-register">
 									<ul>
                                         <li class="empty_account"><span></span>This field isn't empty</li>
-										<li class="Account_required"><span></span>Username isn't exist</li>
+										<li class="d-none Account_required"><span></span>Username is exist</li>
 									</ul>
 								</div>
 							
@@ -44,7 +46,7 @@
 									type="Email"
 									placeholder="Email"
 									id="emailInput-register"
-									name="Email"
+									name="email"
 									required
 								/>
 								<div class="emailInput-register">
@@ -85,7 +87,7 @@
 									id="passwordInput-register-check"
 									type="password"
 									required
-									name="password"
+									name="passwordCheck"
                             	/>
                            		 <div class = "password_required_check">
                                 	<ul>
@@ -106,3 +108,7 @@
 		</div>
 	</div>
 </div>
+
+@section Register{
+	<script src="../js/custom_register.js"></script>
+}

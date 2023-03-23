@@ -16,15 +16,18 @@ public partial class Account
 	//	 ErrorMessage = "Characters are not allowed.")]
     public string Pass { get; set; } = null!;
 
-    public string? Fullname { get; set; }
+	[Required(ErrorMessage = "Please enter this field !")]
+	public string? Fullname { get; set; }
 
     public int? IdAdmin { get; set; }
 
-    public string? PhoneNumber { get; set; }
+	[Required(ErrorMessage = "Please enter this field !")]
+	public string? PhoneNumber { get; set; }
 
     public string? Avatar { get; set; }
 
-    public string? Address { get; set; }
+	[Required(ErrorMessage = "Please enter this field !")]
+	public string? Address { get; set; }
 
     public virtual ICollection<Blog> Blogs { get; } = new List<Blog>();
 
