@@ -5,14 +5,14 @@
 }
 
 @{
-	var isNone = "";
-	if (ViewBag.isErr == null)
+	var isExist = "";
+	if (ViewBag.isExist == null)
 	{
-		isNone = "d-none";	
+		isExist = "d-none";
 	}
 	else
 	{
-		isNone = "";
+		isExist = "";
 	}
 }
 
@@ -28,13 +28,14 @@
 			@using (@Html.BeginForm("Login", "Auth", FormMethod.Post))
 			{
 				@Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
 					<div>
 						<label for="accountInput-login">Your account</label>
 						@Html.TextBoxFor(m => m.UserName,new {id="accountInput-login", placeholder = "UserName", @class = "full-width account-error",type="Text" })
 						<div class="account_required">
 							<ul>
 							<li class="username"><span></span>This field isn't empty</li>
-							<li class="username @isNone"><span>This account is wrong !</span></li>
+							<li class="username @isExist"><span>PassWord or Account is wrong !</span></li>
 							</ul>
 						</div>
 
@@ -73,17 +74,10 @@
 	</div>
 </div>
 
-@{
-	if(isNone != null)
-	{
-		@RenderSection("data",required:false)
-	}
-}
 
 
 @section Login{
 	<script src="../js/customjs.js"></script>
-
 }
 			
 

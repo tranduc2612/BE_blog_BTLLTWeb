@@ -14,25 +14,34 @@ namespace BE_blog_BTLLTWeb.Controllers
         
 		public IActionResult Login(Account account)
 		{
-            if(ModelState.IsValid)
-            {
-                Account acc = db.Accounts.Where(x=>x.UserName==account.UserName && x.Pass == account.Pass).FirstOrDefault();
-                if(acc != null)
-                {
-                    return RedirectToAction("Home", "Site");
-                }
-                else
-                {
-					ViewBag.isErr = true;
-					return View();
-                }
-            }
-            return View();
+			Account acc = db.Accounts.Where(x => x.UserName == account.UserName && x.Pass == account.Pass).FirstOrDefault();
+			if (acc != null)
+			{
+				return RedirectToAction("Index", "Site");
+			}
+			else
+			{
+				ViewBag.isExist = false;
+				return View();
+			}			
 		}
 
 		public IActionResult Register()
         {
             return View();
         }
-    }
+
+        [HttpPost]
+		public IActionResult Register(string account,string email,string passord,string passwordCheck)
+		{
+			if(passord != passwordCheck)
+			{
+				return View();
+			}
+
+			Account acc = (Account)from x in db.Accounts where x.UserName == account && x.Pass == passord select x;
+
+			return View();
+		}
+	}
 }
