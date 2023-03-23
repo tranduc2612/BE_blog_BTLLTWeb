@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BE_blog_BTLLTWeb.Models.Authentication;
+using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
@@ -14,16 +15,13 @@ namespace BE_blog_BTLLTWeb.Controllers
 
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
+        [Authentication]
         public IActionResult CreatePost()
         {
             return View();
         }
 
+        [Authentication]
         [HttpPost]
         public IActionResult CreatePost(string name)
         {
@@ -70,11 +68,13 @@ namespace BE_blog_BTLLTWeb.Controllers
 			return View();
 		}
 
+
 		public IActionResult Category()
 		{
 			return View();
 		}
 
+        [Authentication]
         public IActionResult YourPost()
         {
             return View();

@@ -17,7 +17,9 @@ namespace BE_blog_BTLLTWeb.Controllers
 			Account acc = db.Accounts.Where(x => x.UserName == account.UserName && x.Pass == account.Pass).FirstOrDefault();
 			if (acc != null)
 			{
-				return RedirectToAction("Index", "Site");
+                HttpContext.Session.SetString("UserName", acc.UserName.ToString());
+                HttpContext.Session.SetString("idUser", acc.IdAccount.ToString());
+                return RedirectToAction("Index", "Site");
 			}
 			else
 			{
@@ -34,14 +36,25 @@ namespace BE_blog_BTLLTWeb.Controllers
         [HttpPost]
 		public IActionResult Register(string account,string email,string passord,string passwordCheck)
 		{
-			if(passord != passwordCheck)
+			if(passord != passwordCheck || account == "")
 			{
 				return View();
 			}
+			Account acc = db.Accounts.Where(x => x.UserName == account && x.Pass == passord).FirstOrDefault();
+			if(acc != null) { 
+				// tai khoan da ton tai
+                return View();
+            }
+            else
+			{
+				Account newAccount = new Account();
+				newAccount.UserName = account;
+				newAccount.Pass = passord;
+				//newAccount.
+				//db.Accounts.Add(acc);
+                return RedirectToAction("Index", "Site");
+            }
 
-			Account acc = (Account)from x in db.Accounts where x.UserName == account && x.Pass == passord select x;
-
-			return View();
-		}
+        }
 	}
 }
