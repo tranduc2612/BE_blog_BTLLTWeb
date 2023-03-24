@@ -1,5 +1,5 @@
 ﻿@model BE_blog_BTLLTWeb.Models.Account;
-
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     ViewData["Title"] = "Profile";
     Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
@@ -10,7 +10,38 @@
 	var avatar = Context.Session.GetString("Avatar");
 	if (avatar == null)
 	{
-		avatar = "./../images/icons/social/iconmonstr-user-circle-thin.svg";
+		avatar = "./../images/avatars/user-01.jpg";
+	}
+	var email = Model.Email;
+	var phone = Model.PhoneNumber;
+	var address = Model.Address;
+	var fullname = @Model.Fullname.ToString();
+	var password = Model.Pass.ToString();
+	if (email == null)
+	{
+		email = "";
+	}
+	else
+	{
+		email = email.ToString();
+	}
+
+	if (phone == null)
+	{
+		phone = "";
+	}
+	else
+	{
+		phone = phone.ToString();
+	}
+
+	if (address == null)
+	{
+		address = "";
+	}
+	else
+	{
+		address = address.ToString();
 	}
 }
 
@@ -20,27 +51,25 @@
 	<header class="listing-header">
 		<h1 class="h2">Typerite: Your-profile</h1>
 	</header>
+	<form asp-action="Profile" asp-controller="User" enctype="multipart/form-data">
 
 	<div class="profile-avatar">
 		<div class="layer-avatar">
 			<i class="fa-solid fa-pen-to-square"></i>
 		</div>
-		<img class="img-avatar" src="@avatar" alt="" />
-		<input class="input-avatar" type="file" />
+		<img class="img-avatar" src="@avatar" alt=""/>
+			<input class="input-avatar" type="file" name="file"/>
 	</div>
 
+	<span class="" style="color:green;font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;position: relative;top:-16px">@ViewData["Sussess"]</span>
 	<div class="profile-form">
-		@using (Html.BeginForm("Profile", "User"))
-		{
 			<div class="profile-field">
 				<label for="account" style="font-size: 2rem; margin-bottom: 0">Name Account</label>
-				@Html.TextBoxFor(x=>x.UserName,new{ @id="account",@class="full-width input-field",@type="text",@disabled=true,@Value=Model.UserName.ToString()})
-
-				@*<input class="full-width input-field"
-			type="text"
-			value="minhducvn"
-			id="account"
-			disabled />*@
+				<input class="full-width input-field"
+						type="text"
+					   value="@Model.UserName.ToString()"
+						id="account"
+						disabled />
 			</div>
 			
 
@@ -48,11 +77,15 @@
 					<label for="full_name" style="font-size: 2rem; margin-bottom: 0">Full Name</label>
 					<input class="full-width input-field"
 					   type="text"
-					   name="full_name"
+					   name="fullName"
+					   placeholder="Please update your full name"
+					   value="@fullname"
 					   id="full_name" />
-				@Html.TextBoxFor(x=>x.Fullname,new{ @name="full_name",@id="full_name",@class="full-width input-field",@type="text",@disabled=true,@Value=Model.UserName.ToString()})
-				@Html.ValidationMessageFor(m => m.Fullname, "", new { @class = "text-danger",style="color:red" })
-
+						<span class="" style="color:red;font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;position: relative;top:-16px">@ViewData["fullname"]</span>
+				
+				
+				
+				
 				</div>
 
 				<div class="profile-field">
@@ -60,16 +93,24 @@
 					<input class="full-width input-field"
 					   type="email"
 					   name="email"
+					   value="@email"
+					   placeholder="Please update your email"
 					   id="email" />
-				</div>
+				<span class="" style="color:red;font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;position: relative;top:-16px">@ViewData["email"]</span>
+
+			</div>
 
 				<div class="profile-field">
 					<label for="address" style="font-size: 2rem; margin-bottom: 0">Address</label>
 					<input class="full-width input-field"
 					   type="text"
 					   name="address"
+					   value="@address"
+					   placeholder="Please update your address"
 					   id="address" />
-				</div>
+				<span class="" style="color:red;font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;position: relative;top:-16px">@ViewData["address"]</span>
+
+			</div>
 
 				<div class="profile-field">
 					<label for="phone" style="font-size: 2rem; margin-bottom: 0">Phone Number</label>
@@ -77,33 +118,36 @@
 					   type="number"
 					   name="phone"
 					   id="phone"
+					   placeholder="Please update your phone"
+					   value="@phone"
 					   onkeydown="return event.keyCode !== 69" />
-				</div>
+				<span class="" style="color:red;font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;position: relative;top:-16px">@ViewData["phone"]</span>
+
+			</div>
 
 				<div class="profile-field">
 					<label for="password" style="font-size: 2rem; margin-bottom: 0">Password</label>
 					<input class="full-width input-field"
 					   type="password"
-					   name=""
+					   placeholder="Change your password ?"
+					   name="password"
+					   value="@password"
 					   id="password" />
-				</div>
+				<span class="" style="color:red;font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;position: relative;top:-16px">@ViewData["password"]</span>
+
+			</div>
 
 				<div class="profile-field">
 					<label for="password_confirm"
 					   style="font-size: 2rem; margin-bottom: 0">Password Confirm</label>
 					<input class="full-width input-field"
 					   type="password"
-					   name="password-confirm"
+					   name="passwordConfirm"
 					   id="password_confirm" />
 				</div>
 
 				<button class="btn full-width btn-primary">Update</button>
-		}
-		
-
-		
-
-
+		</form>
 	</div>
 </div>
 

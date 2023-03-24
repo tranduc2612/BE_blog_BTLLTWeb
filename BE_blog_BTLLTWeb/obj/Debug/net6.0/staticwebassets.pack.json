@@ -317,20 +317,28 @@
       "PackagePath": "staticwebassets\\Ckeditor\\webpack.config.js"
     },
     {
-      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\iduser1\\1679329163045334915478_1135697117202135_5228134943451106029_n.jpg",
-      "PackagePath": "staticwebassets\\ImagePost\\iduser1\\1679329163045334915478_1135697117202135_5228134943451106029_n.jpg"
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\tranminhduc\\1679645495346wheel-2000.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\tranminhduc\\1679645495346wheel-2000.jpg"
     },
     {
-      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\iduser1\\1679329186380334915478_1135697117202135_5228134943451106029_n.jpg",
-      "PackagePath": "staticwebassets\\ImagePost\\iduser1\\1679329186380334915478_1135697117202135_5228134943451106029_n.jpg"
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\tranminhduc\\1679645986824wheel-2000.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\tranminhduc\\1679645986824wheel-2000.jpg"
     },
     {
-      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\iduser1\\1679329642743334915478_1135697117202135_5228134943451106029_n.jpg",
-      "PackagePath": "staticwebassets\\ImagePost\\iduser1\\1679329642743334915478_1135697117202135_5228134943451106029_n.jpg"
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\tranminhduc\\1679652962971standard-1000.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\tranminhduc\\1679652962971standard-1000.jpg"
     },
     {
-      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\iduser1\\1679396617413334915478_1135697117202135_5228134943451106029_n.jpg",
-      "PackagePath": "staticwebassets\\ImagePost\\iduser1\\1679396617413334915478_1135697117202135_5228134943451106029_n.jpg"
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\doducliem\\wheel-1000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\doducliem\\wheel-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\standard-2000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\standard-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\wheel-2000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\wheel-2000.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\android-chrome-192x192.png",
@@ -383,6 +391,22 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\images\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\tranminhduc\\310383459_623015842699990_2884350315879935845_n.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\tranminhduc\\310383459_623015842699990_2884350315879935845_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\tranminhduc\\317514620_841484673801299_5170286365964503542_n.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\tranminhduc\\317514620_841484673801299_5170286365964503542_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\tranminhduc\\318308952_863406564796116_2896962878625149928_n.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\tranminhduc\\318308952_863406564796116_2896962878625149928_n.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\tranminhduc\\334915478_1135697117202135_5228134943451106029_n.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\tranminhduc\\334915478_1135697117202135_5228134943451106029_n.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-01.jpg",

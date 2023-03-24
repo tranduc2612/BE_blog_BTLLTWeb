@@ -31,6 +31,7 @@ inputImage.on("change", (e) => {
 	const file = e.target.files[0];
 	if (regexImg.test(inputImage.val())) {
 		if (file.size > 1024 * 1024) {
+
 			showMessageAndAutoClose(
 				errBox,
 				susBox,
@@ -48,6 +49,8 @@ inputImage.on("change", (e) => {
 				const widthImg = image.width;
 				const heightImg = image.height;
 				if (widthImg >= 1000 && heightImg <= widthImg / 2 + 250) {
+					console.log("hello")
+
 					imgPreview.attr("src", reader.result);
 					showMessageAndAutoClose(
 						susBox,

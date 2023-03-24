@@ -3,8 +3,22 @@
     ViewData["Title"] = "CreatePost";
     Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
 }
+@model List<Category>
 
 <div class="s-content">
+	<div class="alert">
+		<div class="alert-box alert-box--error hideit">
+			<p>Error Message. Your Message Goes Here.</p>
+			<i class="fa fa-times alert-box__close" aria-hidden="true"></i>
+		</div>
+		<!-- end error -->
+
+		<div class="alert-box alert-box--success hideit">
+			<p>Success Message. Your Message Goes Here.</p>
+			<i class="fa fa-times alert-box__close" aria-hidden="true"></i>
+		</div>
+		<!-- end success -->
+	</div>
 	<header class="listing-header">
 		<h1 class="h2">Create post</h1>
 	</header>
@@ -16,6 +30,8 @@
 				   class="full-width"
 				   type="text"
 				   name="title" />
+			<span class="" style="color:red;font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;position: relative;top:-16px">@ViewBag.TitlePost</span>
+
 		</div>
 
 		<div class="form__create-item">
@@ -25,128 +41,39 @@
 				   class="custom-file-input"
 				   type="file" />
 			<image class="image-create-post-preview" src="" />
-			<button type="button" class="btn image-create-post-btn">
+			<button class="btn image-create-post-btn">
 				Click to add image
 			</button>
+			<span class="" style="color:red;font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;">@ViewBag.ImagePost</span>
+
 		</div>
 
 		<div class="form__create-item">
 			<label class="create-title" for="editor">Your Content</label>
 			<textarea id="editor" name="content"></textarea>
+			<span class="" style="color:red;font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;">@ViewBag.ContentPost</span>
+
 		</div>
 
 		<div class="form__create-item">
 			<label class="create-title" for="topic">Your Topics</label>
 			<ul class="topic__list">
+				@foreach (var item in Model)
+				{
 				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Sport">Sport</label>
+						<label class="btn btn--stroke label__topic" for="@item.NameCategory">@item.NameCategory</label>
 					<input class="checkbox__topic"
-						   id="Sport"
+						   id="@item.NameCategory"
 						   type="checkbox"
 						   name="topic"
-						   value="Sport" />
+						   value="@item.IdCategory" />
 				</li>
+					
+				}
 
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Music">Music</label>
-					<input class="checkbox__topic"
-						   id="Music"
-						   type="checkbox"
-						   name="topic"
-						   value="Music" />
-				</li>
-
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Travel">Travel</label>
-					<input class="checkbox__topic"
-						   id="Travel"
-						   type="checkbox"
-						   name="topic"
-						   value="Travel" />
-				</li>
-
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Environment">Environment</label>
-					<input class="checkbox__topic"
-						   id="Environment"
-						   type="checkbox"
-						   name="topic"
-						   value="Environment" />
-				</li>
-
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Dance">Dance</label>
-					<input class="checkbox__topic"
-						   id="Dance"
-						   type="checkbox"
-						   name="topic"
-						   value="Dance" />
-				</li>
-
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Life">Life</label>
-					<input class="checkbox__topic"
-						   id="Life"
-						   type="checkbox"
-						   name="topic"
-						   value="Life" />
-				</li>
-
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Code">Code</label>
-					<input class="checkbox__topic"
-						   id="Code"
-						   type="checkbox"
-						   name="topic"
-						   value="Code" />
-				</li>
-
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Industry">Industry</label>
-					<input class="checkbox__topic"
-						   id="Industry"
-						   type="checkbox"
-						   name="topic"
-						   value="Industry" />
-				</li>
-
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Fashion">Fashion</label>
-					<input class="checkbox__topic"
-						   id="Fashion"
-						   type="checkbox"
-						   name="topic"
-						   value="Fashion" />
-				</li>
-
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Politic">Politic</label>
-					<input class="checkbox__topic"
-						   id="Politic"
-						   type="checkbox"
-						   name="topic"
-						   value="Politic" />
-				</li>
-
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Game">Game</label>
-					<input class="checkbox__topic"
-						   id="Game"
-						   type="checkbox"
-						   name="topic"
-						   value="Game" />
-				</li>
-
-				<li class="topic__list-item">
-					<label class="btn btn--stroke label__topic" for="Old">Old</label>
-					<input class="checkbox__topic"
-						   id="Old"
-						   type="checkbox"
-						   name="topic"
-						   value="Old" />
-				</li>
 			</ul>
 		</div>
+		<span class="" style="color:red;font-family: 'Heebo', sans-serif;font-weight: 700;font-size: 1.4rem;position: relative;top:-35px">@ViewBag.TopicPost</span>
 
 		<div class="create-post-policy">
 			<input class="policy-checkbox" id="policy" type="checkbox" />

@@ -65,6 +65,7 @@ namespace BE_blog_BTLLTWeb.Controllers
 				newAccount.Pass = password;
 				newAccount.Email = email;
 				newAccount.Fullname = fullname;
+				newAccount.Avatar = "./../images/icons/social/iconmonstr-user-circle-thin.svg";
 				db.Accounts.Add(newAccount);
 				db.SaveChanges();
 				return RedirectToAction("Login", "Auth");

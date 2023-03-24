@@ -4,7 +4,21 @@
     Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
 }
 
+@model List<Blog>
+@{
+	var isDelete = false;
+}
 <!-- end s-header -->
+
+<div class="messages-popup">
+				<div class="form-popup">
+					<span>Do you want Delete ?</span>
+					<div>
+						<a class="btn-yes btn btn--stroke">Yes</a>
+						<a class="btn-no btn btn--default">No</a>
+					</div>
+				</div>
+			</div>
 
 <div class="s-content">
 	<header class="listing-header">
@@ -42,7 +56,7 @@
 				<a class="list__ypost-link" href="#">
 					<div class="list__ypost-info-left">
 						<img class="list__ypost-img"
-							 src="../images/thumbs/single/standard/standard-2000.jpg"
+							 src="images/thumbs/single/standard/standard-2000.jpg"
 							 alt="" />
 
 						<h3 class="list__ypost-title">
@@ -60,49 +74,53 @@
 				</a>
 			</li>
 
-			<li class="list__ypost-item">
-				<a class="list__ypost-link" href="#">
-					<div class="list__ypost-info-left">
-						<img class="list__ypost-img"
-							 src="../images/thumbs/single/standard/standard-2000.jpg"
+
+			@foreach(var item in Model)
+			{
+				<li class="list__ypost-item">
+					<a class="list__ypost-link" asp-action="DetailPost" asp-controller="Post" asp-route-idBlog="@item.IdBlog">
+						<div class="list__ypost-info-left">
+							<img class="list__ypost-img"
+							 src="@item.ImageTitle"
 							 alt="" />
 
-						<h3 class="list__ypost-title">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-							Quas consequuntur, id culpa esse molestias ab suscipit ipsam
-							tempore corrupti iste quae ea sequi, exercitationem ratione
-							quis magni nostrum pariatur rerum!
-						</h3>
-					</div>
+							<h3 class="list__ypost-title">
+								@item.Title
+							</h3>
+						</div>
 
-					<div class="list__ypost-info-right">
-						<span class="list__ypost-status">Đã duyệt thành công</span>
-						<span class="list__ypost-date">Apr 29, 2019</span>
-					</div>
-				</a>
-			</li>
-
-			<li class="list__ypost-item">
-				<a class="list__ypost-link" href="#">
-					<div class="list__ypost-info-left">
-						<img class="list__ypost-img"
-							 src="../images/thumbs/single/standard/standard-2000.jpg"
-							 alt="" />
-
-						<h3 class="list__ypost-title">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-							Quas consequuntur, id culpa esse molestias ab suscipit ipsam
-							tempore corrupti iste quae ea sequi, exercitationem ratione
-							quis magni nostrum pariatur rerum!
-						</h3>
-					</div>
-
-					<div class="list__ypost-info-right">
-						<span class="list__ypost-status">Bài viết bị từ chối</span>
-						<span class="list__ypost-date">Apr 29, 2019</span>
-					</div>
-				</a>
-			</li>
+						<div class="list__ypost-info-right">
+							<span class="list__ypost-status">@{
+									var notifi = "";
+									switch (item.Status)
+									{
+										case 1:
+											isDelete = true;
+											notifi = "Đang chờ duyệt";
+											break;
+										case 2:
+											isDelete = true;
+											notifi = "Đã duyệt thành công";
+											break;
+										case 3:
+											isDelete = false;
+											notifi = "Bài viết đã từ chối";
+											break;
+									}
+									@notifi
+								}</span>
+							<span class="list__ypost-date">@item.CreateAt.Date.ToString("MMM dd, yyyy")</span>
+						</div>
+					</a>
+					@if (isDelete)
+					{
+						<span class="btn-delete" idBlog="@item.IdBlog" idUser="@item.IdAccount">
+							<i class="fas fa-times"></i>
+						</span>
+					}
+				</li>
+				
+			}
 		</ul>
 	</div>
 
@@ -124,4 +142,24 @@
 		</div>
 	</div>
 </div>
+
+@section deleteYourPost{
+	<script>
+		$(".btn-yes").on("click", (e) => {
+			let idBlog = $(".btn-delete").attr("idBlog");
+			let idUser = $(".btn-delete").attr("idUser");
+
+			const link = document.createElement("a");
+			link.href = `/Post/DeletePost?idBlog=${idBlog}&idUser=${idUser}`
+			link.click();
+		});
+
+		$(".btn-no").on("click", (e) => {
+			$(".messages-popup").css("display", "none");
+		});
+		$(".btn-delete").on("click", (e) => {
+			$(".messages-popup").css("display", "block");
+		});
+	</script>
+}
 <!-- end s-content -->

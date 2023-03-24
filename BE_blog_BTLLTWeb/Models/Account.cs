@@ -1,8 +1,8 @@
 ﻿using Microsoft.Build.Framework;
 using System;
 using System.Collections.Generic;
-using Xunit;
-using Xunit.Sdk;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace BE_blog_BTLLTWeb.Models;
 
@@ -14,18 +14,20 @@ public partial class Account
     
     public string Pass { get; set; } = null!;
 
-	[Required(ErrorMessage = "Please enter student name.")]
 	public string? Fullname { get; set; }
 
     public int? IdAdmin { get; set; }
 
-    public string? PhoneNumber { get; set; }
+	//[System.ComponentModel.DataAnnotations.Required(ErrorMessage = "This fiels isn't blank")]
+	public string? PhoneNumber { get; set; }
 
     public string? Avatar { get; set; }
 
-    public string? Address { get; set; }
+	//[System.ComponentModel.DataAnnotations.Required(ErrorMessage = "This fiels isn't blank")]
+	public string? Address { get; set; }
 
-    public string? Email { get; set; }
+	//[System.ComponentModel.DataAnnotations.Required(ErrorMessage = "This fiels isn't blank")]
+	public string? Email { get; set; }
 
     public virtual ICollection<Blog> Blogs { get; } = new List<Blog>();
 
