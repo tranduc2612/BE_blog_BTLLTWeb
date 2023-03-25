@@ -63,6 +63,8 @@
 	</style>
 </head>
 
+
+
 <body>
 	<!-- preloader
 	================================================== -->
@@ -73,14 +75,25 @@
 			<div></div>
 		</div>
 	</div>
+	
+	<div class="messages-popup">
+		<div class="form-popup">
+			<span>Do you want Delete ?</span>
+			<div>
+				<a class="btn-yes btn btn--stroke">Yes</a>
+				<a class="btn-no btn btn--default">No</a>
+			</div>
+		</div>
+	</div>
 
 	<div id="top" class="s-wrap site-wrapper">
+		
 		<!-- site header
 		================================================== -->
 		<header class="s-header">
 			<div class="header__top">
 				<div class="header__logo">
-					<a class="site-logo" href="index.html">
+					<a class="site-logo" href="/">
 						<img src="../images/logo.svg" alt="Homepage" />
 					</a>
 				</div>
@@ -341,5 +354,6 @@
 	@RenderSection("createpost", required: false)
 	@RenderSection("renderContent", required: false)
 	@RenderSection("deleteYourPost",required:false)
+	@RenderSection("actionDetailPost",required:false)
 </body>
 </html>

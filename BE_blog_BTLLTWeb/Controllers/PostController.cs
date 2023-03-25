@@ -2,6 +2,7 @@
 using BE_blog_BTLLTWeb.Models.Authentication;
 using BE_blog_BTLLTWeb.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 using System.IO;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
@@ -123,17 +124,20 @@ namespace BE_blog_BTLLTWeb.Controllers
             return Json(new { url = filepath });
         }
 
-
+        public JsonResult LikePost(string idPost,string idCurrentUser)
+        {
+            
+			return new JsonResult(new { idPost });
+		}
         public IActionResult DetailPost(int IdBlog)
 		{
-            string currentUser = HttpContext.Session.GetString("UserName");
+			string currentUser = HttpContext.Session.GetString("UserName");
             if(currentUser != null)
             {
 			    string fullname = HttpContext.Session.GetString("FullName");
-                TempData["iduser"] = HttpContext.Session.GetInt32("idUser");
+                TempData["idcurrentuser"] = HttpContext.Session.GetInt32("idUser");
 				TempData["fullname"] = fullname;
                 TempData["avatar"] = HttpContext.Session.GetString("Avatar");
-
 			}
 
 			Blog blog = db.Blogs.Where(x=>x.IdBlog == IdBlog).FirstOrDefault();
@@ -163,31 +167,77 @@ namespace BE_blog_BTLLTWeb.Controllers
 			return View();
 		}
 
-        public JsonResult ListComment(string idPost)
+        public JsonResult ListComment(int idBlog)
         {
             try {
-                string currentUser = HttpContext.Session.GetString("UserName");
-				List<CommentViewModel> lst = new List<CommentViewModel>();
-                List<CommentBlog> lstComment = db.CommentBlogs.Where(x => x.IdBlog == int.Parse(idPost)).ToList();
-                foreach (CommentBlog comment in lstComment)
-                {
-                    CommentViewModel infoComment = new CommentViewModel(comment,currentUser);
-                    lst.Add(infoComment);
-				}
-                return new JsonResult(new { lst });
+                string id = idBlog.ToString();
+                var lst = RenderListComment(id);
+
+				return new JsonResult(new { lst });
             }
             catch (Exception ex)
             {
                 return new JsonResult(new { ex });
             }
-
 		}
 
-        [Authentication]
+        public List<CommentViewModel> RenderListComment(string idPost)
+        {
+			string currentUser = HttpContext.Session.GetString("UserName");
+			List<CommentViewModel> lst = new List<CommentViewModel>();
+			List<CommentBlog> lstComment = db.CommentBlogs.Where(x => x.IdBlog == int.Parse(idPost)).OrderByDescending(x=>x.CreateAt).ToList();
+			foreach (CommentBlog comment in lstComment)
+			{
+				CommentViewModel infoComment = new CommentViewModel(comment, currentUser);
+				lst.Add(infoComment);
+			}
+            return lst;
+		}
+
+        [HttpPost]
+        public JsonResult PostComment(string idPost, string idAcc, string cMessage)
+        {
+            if(cMessage == null || idPost == null || idAcc == null)
+            {
+                string err = "";
+                return new JsonResult(new { err });
+			}
+            CommentBlog comment = new CommentBlog();
+            comment.Content = cMessage;
+            comment.IdBlog = int.Parse(idPost);
+            comment.IdAccount = int.Parse(idAcc);
+            comment.CreateAt = DateTime.Now;
+            db.CommentBlogs.Add(comment);
+            db.SaveChanges();
+
+            var lst = RenderListComment(idPost);
+
+            return new JsonResult(new { lst });
+        }
+
+        [HttpDelete]
+        public JsonResult DeleteComment(string id,string idPost)
+        {
+            if(id == "-1")
+            {
+                string err = "err idcomment";
+				return new JsonResult(new { err });
+			}
+			CommentBlog comment = db.CommentBlogs.Find(int.Parse(id));
+            if (comment != null)
+            {
+				db.CommentBlogs.Remove(comment);
+				db.SaveChanges();
+			}
+			var lst = RenderListComment(idPost);
+			return new JsonResult(new { lst });
+		}
+
+		[Authentication]
         public IActionResult YourPost()
         {
 			int currentId = (int)HttpContext.Session.GetInt32("idUser");
-			List<Blog> currentUserBlog = db.Blogs.Where(x=>x.IdAccount == currentId).OrderBy(x=>x.CreateAt).ToList();
+			List<Blog> currentUserBlog = db.Blogs.Where(x=>x.IdAccount == currentId).OrderByDescending(x=>x.CreateAt).ToList();
             return View(currentUserBlog);
         }
 	}
