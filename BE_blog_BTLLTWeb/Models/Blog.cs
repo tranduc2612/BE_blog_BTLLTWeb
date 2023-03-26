@@ -27,7 +27,7 @@ public partial class Blog
 
     public virtual Account? IdAccountNavigation { get; set; }
 
-    public virtual ICollection<Account> IdAccounts { get; } = new List<Account>();
+    public virtual ICollection<LikeBlog> LikeBlogs { get; } = new List<LikeBlog>();
 
     public virtual ICollection<Category> IdCategories { get; } = new List<Category>();
 }

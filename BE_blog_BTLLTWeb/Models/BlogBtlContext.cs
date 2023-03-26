@@ -25,6 +25,8 @@ public partial class BlogBtlContext : DbContext
 
     public virtual DbSet<CommentBlog> CommentBlogs { get; set; }
 
+    public virtual DbSet<LikeBlog> LikeBlogs { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Data Source=MSI\\SQLEXPRESS;Initial Catalog=Blog_BTL;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
@@ -105,25 +107,6 @@ public partial class BlogBtlContext : DbContext
                 .HasForeignKey(d => d.IdAccount)
                 .HasConstraintName("fk_Blog_Account");
 
-            entity.HasMany(d => d.IdAccounts).WithMany(p => p.IdBlogs)
-                .UsingEntity<Dictionary<string, object>>(
-                    "LikeBlog",
-                    r => r.HasOne<Account>().WithMany()
-                        .HasForeignKey("IdAccount")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("fk_LikeBlog_Account"),
-                    l => l.HasOne<Blog>().WithMany()
-                        .HasForeignKey("IdBlog")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("fk_LikeBlog_Blog"),
-                    j =>
-                    {
-                        j.HasKey("IdBlog", "IdAccount").HasName("PK__LikeBlog__38E6AD9A46E08D0F");
-                        j.ToTable("LikeBlog");
-                        j.IndexerProperty<int>("IdBlog").HasColumnName("idBlog");
-                        j.IndexerProperty<int>("IdAccount").HasColumnName("idAccount");
-                    });
-
             entity.HasMany(d => d.IdCategories).WithMany(p => p.IdBlogs)
                 .UsingEntity<Dictionary<string, object>>(
                     "DetailCategory",
@@ -184,6 +167,29 @@ public partial class BlogBtlContext : DbContext
             entity.HasOne(d => d.IdBlogNavigation).WithMany(p => p.CommentBlogs)
                 .HasForeignKey(d => d.IdBlog)
                 .HasConstraintName("fk_CommentBlog_Blog");
+        });
+
+        modelBuilder.Entity<LikeBlog>(entity =>
+        {
+            entity.HasKey(e => new { e.IdBlog, e.IdAccount }).HasName("PK__LikeBlog__38E6AD9A46E08D0F");
+
+            entity.ToTable("LikeBlog");
+
+            entity.Property(e => e.IdBlog).HasColumnName("idBlog");
+            entity.Property(e => e.IdAccount).HasColumnName("idAccount");
+            entity.Property(e => e.LikeAt)
+                .HasColumnType("date")
+                .HasColumnName("likeAt");
+
+            entity.HasOne(d => d.IdAccountNavigation).WithMany(p => p.LikeBlogs)
+                .HasForeignKey(d => d.IdAccount)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_LikeBlog_Account");
+
+            entity.HasOne(d => d.IdBlogNavigation).WithMany(p => p.LikeBlogs)
+                .HasForeignKey(d => d.IdBlog)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_LikeBlog_Blog");
         });
 
         OnModelCreatingPartial(modelBuilder);

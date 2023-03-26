@@ -3,6 +3,7 @@ using BE_blog_BTLLTWeb.Models.Authentication;
 using BE_blog_BTLLTWeb.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
+using System.Collections.Generic;
 using System.IO;
 using Xunit.Abstractions;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
@@ -125,14 +126,38 @@ namespace BE_blog_BTLLTWeb.Controllers
             return Json(new { url = filepath });
         }
 
-        public JsonResult LikePost(string idPost,string idCurrentUser)
+        public JsonResult LikePost(string idPost,string idUser)
         {
-            
-			return new JsonResult(new { idPost });
+            if(idPost == null || idUser == null)
+            {
+                string err = "err like";
+				return new JsonResult(new { err });
+			}
+
+            LikeBlog isLiked = db.LikeBlogs.Where(x=>x.IdAccount== int.Parse(idUser) && x.IdBlog == int.Parse(idPost)).FirstOrDefault();
+            if(isLiked != null)
+            {
+                db.LikeBlogs.Remove(isLiked);
+			}
+			else
+            {
+                LikeBlog like = new LikeBlog();
+                like.LikeAt = DateTime.Now;
+                like.IdAccount= int.Parse(idUser);
+                like.IdBlog = int.Parse(idPost);
+                db.LikeBlogs.Add(like);
+			}
+			db.SaveChanges();
+			int mountLike = db.LikeBlogs.Where(x => x.IdBlog == int.Parse(idPost)).Count();
+			return new JsonResult(new { isLiked, mountLike });
+
+
+
+
 		}
 
 
-        public IActionResult DetailPost(int IdBlog)
+		public IActionResult DetailPost(int IdBlog)
 		{
 			string currentUser = HttpContext.Session.GetString("UserName");
             if(currentUser != null)
@@ -141,8 +166,17 @@ namespace BE_blog_BTLLTWeb.Controllers
                 TempData["idcurrentuser"] = HttpContext.Session.GetInt32("idUser");
 				TempData["fullname"] = fullname;
                 TempData["avatar"] = HttpContext.Session.GetString("Avatar");
-			}
+                if (db.LikeBlogs.Where(x => x.IdAccount == HttpContext.Session.GetInt32("idUser") && x.IdBlog == IdBlog).FirstOrDefault() != null)
+                {
+                    TempData["like"] = "active";
+                }
+                else
+                {
+                    TempData["like"] = "";
 
+				}
+			}
+            TempData["mountlike"] = db.LikeBlogs.Where(x => x.IdBlog == IdBlog).Count();
 			Blog blog = db.Blogs.Where(x=>x.IdBlog == IdBlog).FirstOrDefault();
             DetailBlogViewModel detail = new DetailBlogViewModel(blog);
 			return View(detail);
