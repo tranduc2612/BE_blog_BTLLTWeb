@@ -125,8 +125,10 @@ namespace BE_blog_BTLLTWeb.Controllers
             }
             return Json(new { url = filepath });
         }
-
-        public JsonResult LikePost(string idPost,string idUser)
+		
+        
+        [Authentication]
+		public JsonResult LikePost(string idPost,string idUser)
         {
             if(idPost == null || idUser == null)
             {
@@ -243,6 +245,7 @@ namespace BE_blog_BTLLTWeb.Controllers
 		}
 
         [HttpPost]
+        [Authentication]
         public JsonResult PostComment(string idPost, string idAcc, string cMessage)
         {
             if(cMessage == null || idPost == null || idAcc == null)
