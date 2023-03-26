@@ -13,7 +13,7 @@ namespace BE_blog_BTLLTWeb.ViewModels
 		private int idAuthor;
 		private int amountLike;
 		private string createTime;
-		private string idBlog; 
+		private string idBlog;
 		private List<string> nameCategory;
 
 		public DetailBlogViewModel(Blog blog)

@@ -4,6 +4,7 @@ using BE_blog_BTLLTWeb.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 using System.IO;
+using Xunit.Abstractions;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace BE_blog_BTLLTWeb.Controllers
@@ -129,6 +130,8 @@ namespace BE_blog_BTLLTWeb.Controllers
             
 			return new JsonResult(new { idPost });
 		}
+
+
         public IActionResult DetailPost(int IdBlog)
 		{
 			string currentUser = HttpContext.Session.GetString("UserName");
@@ -162,10 +165,21 @@ namespace BE_blog_BTLLTWeb.Controllers
         }
 
 
-		public IActionResult Category()
-		{
-			return View();
+		public IActionResult Category(string? type)
+		{   
+            if(type != null)
+            {
+                BlogByTypeViewModel bloglistType = new BlogByTypeViewModel(type);
+                List<CategoryBlog> lstType = bloglistType.ListBlogByType;
+                return View(lstType);
+            }
+
+			BlogByTypeViewModel blogModel = new BlogByTypeViewModel();
+			List<CategoryBlog> allList = blogModel.ListBlogByType;
+			return View(allList);
 		}
+
+	    
 
         public JsonResult ListComment(int idBlog)
         {
@@ -236,9 +250,13 @@ namespace BE_blog_BTLLTWeb.Controllers
 		[Authentication]
         public IActionResult YourPost()
         {
-			int currentId = (int)HttpContext.Session.GetInt32("idUser");
-			List<Blog> currentUserBlog = db.Blogs.Where(x=>x.IdAccount == currentId).OrderByDescending(x=>x.CreateAt).ToList();
-            return View(currentUserBlog);
+            if (HttpContext.Session.GetInt32("idUser") != null)
+            {
+				int currentId = (int)HttpContext.Session.GetInt32("idUser");
+				List<Blog> currentUserBlog = db.Blogs.Where(x => x.IdAccount == currentId).OrderByDescending(x => x.CreateAt).ToList();
+                 return View(currentUserBlog);
+			}
+            return View();
         }
 	}
 }

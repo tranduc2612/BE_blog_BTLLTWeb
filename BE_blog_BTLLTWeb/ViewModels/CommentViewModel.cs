@@ -14,7 +14,7 @@ namespace BE_blog_BTLLTWeb.ViewModels
 			idBlog = comment.IdBlog.Value.ToString();
 			content = comment.Content;
 			createAt = comment.CreateAt.Value.ToString("MMM dd, yyyy");
-			//string curr = ;
+			
 			if (currentUser == username)
 			{
 				isYourComment= "(You)";

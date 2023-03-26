@@ -1751,7 +1751,6 @@ input::-moz-focus-inner {
   width: 100%;
   vertical-align: bottom;
   transition: all 0.3s;
-  object-fit: contain;
 }
 
 .masonry .entry__thumb-link::before {
@@ -1831,6 +1830,7 @@ input::-moz-focus-inner {
   line-height: 1.231;
   margin-top: 0;
   margin-bottom: 0.8rem;
+  height:64px;
 }
 
 .masonry .entry__title a {

@@ -76,10 +76,7 @@ namespace BE_blog_BTLLTWeb.Controllers
 		public IActionResult LogOut()
 		{
 			HttpContext.Session.Clear();
-			//HttpContext.Session.Remove("UserName");
-			//HttpContext.Session.Remove("UserName");
-			//HttpContext.Session.Remove("UserName");
-			//HttpContext.Session.Remove("UserName");
+			
 
 			return RedirectToAction("Index","Site");
 		}
