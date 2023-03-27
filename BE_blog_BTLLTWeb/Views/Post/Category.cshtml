@@ -10,7 +10,7 @@
 
 <div class="s-content">
 	<header class="listing-header">
-		<h1 class="h2">Category: Design</h1>
+		<h1 class="h2">Category: @TempData["namecategory"]</h1>
 	</header>
 
 	<div class="masonry-wrap">
@@ -39,7 +39,7 @@
 								<span class="entry__meta-cat">
 									@foreach(var category in item.Category)
 									{
-										<a href="/Post/Category?idType=@category.IdCategory">@category.NameCategory</a>
+										<a href="/Post/Category?type=@category.IdCategory">@category.NameCategory</a>
 									}
 								</span>
 								<span class="entry__meta-date">

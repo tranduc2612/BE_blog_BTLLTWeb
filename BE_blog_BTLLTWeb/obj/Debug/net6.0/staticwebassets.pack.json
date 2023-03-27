@@ -393,6 +393,10 @@
       "PackagePath": "staticwebassets\\images\\apple-touch-icon.png"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\mylinh\\MyLinh.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\mylinh\\MyLinh.jpg"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\tranminhduc\\310383459_623015842699990_2884350315879935845_n.jpg",
       "PackagePath": "staticwebassets\\images\\avatars\\tranminhduc\\310383459_623015842699990_2884350315879935845_n.jpg"
     },

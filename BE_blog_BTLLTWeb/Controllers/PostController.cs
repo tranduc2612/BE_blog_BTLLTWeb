@@ -2,9 +2,11 @@
 using BE_blog_BTLLTWeb.Models.Authentication;
 using BE_blog_BTLLTWeb.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection.Metadata;
 using Xunit.Abstractions;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
@@ -65,6 +67,7 @@ namespace BE_blog_BTLLTWeb.Controllers
 			blog.Title = title;
             blog.Content = content;
             blog.CreateAt = DateTime.Now;
+            blog.AmountLike = 0;
             string filepath;
 			if (image != null)
 			{
@@ -135,10 +138,10 @@ namespace BE_blog_BTLLTWeb.Controllers
                 string err = "err like";
 				return new JsonResult(new { err });
 			}
-
             LikeBlog isLiked = db.LikeBlogs.Where(x=>x.IdAccount== int.Parse(idUser) && x.IdBlog == int.Parse(idPost)).FirstOrDefault();
             if(isLiked != null)
             {
+                db.Blogs.Find(int.Parse(idPost)).AmountLike -= 1;
                 db.LikeBlogs.Remove(isLiked);
 			}
 			else
@@ -148,14 +151,11 @@ namespace BE_blog_BTLLTWeb.Controllers
                 like.IdAccount= int.Parse(idUser);
                 like.IdBlog = int.Parse(idPost);
                 db.LikeBlogs.Add(like);
+				db.Blogs.Find(int.Parse(idPost)).AmountLike += 1;
 			}
 			db.SaveChanges();
 			int mountLike = db.LikeBlogs.Where(x => x.IdBlog == int.Parse(idPost)).Count();
 			return new JsonResult(new { isLiked, mountLike });
-
-
-
-
 		}
 
 
@@ -175,7 +175,6 @@ namespace BE_blog_BTLLTWeb.Controllers
                 else
                 {
                     TempData["like"] = "";
-
 				}
 			}
             TempData["mountlike"] = db.LikeBlogs.Where(x => x.IdBlog == IdBlog).Count();
@@ -184,32 +183,122 @@ namespace BE_blog_BTLLTWeb.Controllers
 			return View(detail);
 		}
 
+        [Authentication]
         public IActionResult DeletePost(string idBlog, string idUser)
         {
             
-            if(idBlog == null || idUser == null)
+            if(idBlog == null || idUser == null || int.Parse(idUser) != (int)HttpContext.Session.GetInt32("idUser"))
             {
 				return RedirectToAction("YourPost");
 			}
-            int currentUser = (int)HttpContext.Session.GetInt32("idUser");
-			if (currentUser == int.Parse(idUser))
-            {
-			    return RedirectToAction("YourPost");
-			}
 
+			Blog blog = db.Blogs.FirstOrDefault(a => a.IdBlog == int.Parse(idBlog));
+
+			if (blog == null)
+            {
+				return RedirectToAction("YourPost");
+			}
+			List<LikeBlog> listlikeblog = db.LikeBlogs.Where(x => x.IdBlog == int.Parse(idBlog)).ToList();
+            List<CommentBlog> listcommentblog = db.CommentBlogs.Where(x => x.IdBlog == int.Parse(idBlog)).ToList();
+
+            if(listlikeblog != null)
+            {
+                db.LikeBlogs.RemoveRange(listlikeblog);
+            }
+            if(listcommentblog != null)
+            {
+                db.CommentBlogs.RemoveRange(listcommentblog);
+            }
+
+            db.Categories.ToList();
+
+
+
+
+            var listCategoryotrongBlog = db.Blogs.Where(x => x.IdBlog == int.Parse(idBlog)).SelectMany(x => x.IdCategories).ToList();
+
+
+            foreach (var item in listCategoryotrongBlog)
+            {
+                var category = db.Categories.Include(c => c.IdBlogs).FirstOrDefault(c => c.IdCategory == item.IdCategory);
+                var blogToRemove = category.IdBlogs.FirstOrDefault(b => b.IdBlog == int.Parse(idBlog));
+
+
+                if (blogToRemove != null)
+                {
+                    category.IdBlogs.Remove(blogToRemove);
+                    db.SaveChanges();
+
+                }
+            }
+
+            //foreach (var item in listCategoryotrongBlog)
+            //{
+            //    var category = db.Categories.Where(c => c.IdBlogs == ).FirstOrDefault(c => c.IdCategory == item.IdCategory);
+            //    var blogToRemove = category.IdBlogs.FirstOrDefault(b => b.IdBlog == int.Parse(idBlog));
+
+
+            //    if (blogToRemove != null)
+            //    {
+            //        category.IdBlogs.Remove(blogToRemove);
+            //        db.SaveChanges();
+
+            //    }
+            //}
+            db.Blogs.Remove(blog);
+
+			//foreach (var item in listCategoryotrongBlog)
+			//         {
+			//	var blogs = db.Blogs.Where(b => b.IdCategories.Any(c => c.IdCategory == item.IdCategory));
+			//	db.Blogs.RemoveRange(blogs);
+			//	db.SaveChanges();
+			//}
+			//foreach (var item in listCategoryotrongBlog)
+			//{
+
+			//    blog.IdCategories.Remove(item);
+			//    //var data =  item.IdBlogs.SelectMany(x=>x.IdCategories).ToList();
+
+			//}
+
+			//if (blog != null)
+			//{
+			//	var category = blog.IdCategories.ToList();
+			//	foreach (var cat in category)
+			//	{
+			//		blog.IdCategories.Remove(cat);
+			//	}
+			//	db.SaveChanges();
+			//}
+
+			//var BlogCategory = db.Blogs.Where(x => x.IdBlog == blog.IdBlog).SelectMany(x => x.IdCategories).ToList();
+			//foreach (var category in BlogCategory)
+			//{
+			//    var detailBlog = db.Categories.Where(x => x.IdCategory == category.IdCategory).SelectMany(x => x.IdBlogs);
+
+			//    blog.IdCategories.Remove(category);
+			//}
+
+			//for (int i=0; i<blog.IdCategories.Count; i++)
+			//{
+
+			//}
+			db.SaveChanges();
 			return RedirectToAction("YourPost");
         }
 
 
 		public IActionResult Category(string? type)
-		{   
-            if(type != null)
+		{
+			if (type != null)
             {
-                BlogByTypeViewModel bloglistType = new BlogByTypeViewModel(type);
+				TempData["namecategory"] = db.Categories.Find(int.Parse(type)).NameCategory;
+				BlogByTypeViewModel bloglistType = new BlogByTypeViewModel(type);
                 List<CategoryBlog> lstType = bloglistType.ListBlogByType;
-                return View(lstType);
+				return View(lstType);
             }
 
+			TempData["namecategory"] = "All";
 			BlogByTypeViewModel blogModel = new BlogByTypeViewModel();
 			List<CategoryBlog> allList = blogModel.ListBlogByType;
 			return View(allList);
@@ -222,7 +311,6 @@ namespace BE_blog_BTLLTWeb.Controllers
             try {
                 string id = idBlog.ToString();
                 var lst = RenderListComment(id);
-
 				return new JsonResult(new { lst });
             }
             catch (Exception ex)

@@ -12,10 +12,14 @@ namespace BE_blog_BTLLTWeb.Controllers
 
 		public IActionResult Login()
         {
-            return View();
+			if (HttpContext.Session.GetString("UserName") == null)
+			{
+				return View();
+			}
+			return RedirectToAction("Index","Site");
         }
+
         [HttpPost]        
-        
 		public IActionResult Login(Account account)
 		{
 			Account acc = db.Accounts.Where(x => x.UserName == account.UserName && x.Pass == account.Pass).FirstOrDefault();
@@ -38,11 +42,16 @@ namespace BE_blog_BTLLTWeb.Controllers
 			}			
 		}
 
+
 		public IActionResult Register()
         {
 			ViewBag.isExist = false;
-			return View();
-        }
+			if (HttpContext.Session.GetString("UserName") == null)
+			{
+				return View();
+			}
+			return RedirectToAction("Index", "Site");
+		}
 
         [HttpPost]
 		public IActionResult Register(string account,string email,string password, string passwordCheck,string fullname)

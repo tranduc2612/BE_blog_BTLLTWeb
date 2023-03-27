@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CQKMSxe922VcKwn4nzTDu1HcPG2WIBMCqlWGCeRgslE=",
+  "Hash": "4o0F0+HlXKIRwTowHs27m8UNmK4TobPQmvE3uxBm+sk=",
   "Source": "BE_blog_BTLLTWeb",
   "BasePath": "_content/BE_blog_BTLLTWeb",
   "Mode": "Default",
@@ -1647,6 +1647,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\apple-touch-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\mylinh\\MyLinh.jpg",
+      "SourceId": "BE_blog_BTLLTWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "BasePath": "_content/BE_blog_BTLLTWeb",
+      "RelativePath": "images/avatars/mylinh/MyLinh.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\avatars\\mylinh\\MyLinh.jpg"
     },
     {
       "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\tranminhduc\\310383459_623015842699990_2884350315879935845_n.jpg",

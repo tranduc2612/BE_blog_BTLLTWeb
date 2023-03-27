@@ -11,6 +11,8 @@ public partial class Category
 
     public int? IdAdmin { get; set; }
 
+    public string? Img { get; set; }
+
     public virtual AdminBlog? IdAdminNavigation { get; set; }
 
     public virtual ICollection<Blog> IdBlogs { get; } = new List<Blog>();

@@ -135,6 +135,9 @@ public partial class BlogBtlContext : DbContext
 
             entity.Property(e => e.IdCategory).HasColumnName("idCategory");
             entity.Property(e => e.IdAdmin).HasColumnName("idAdmin");
+            entity.Property(e => e.Img)
+                .HasColumnType("ntext")
+                .HasColumnName("img");
             entity.Property(e => e.NameCategory)
                 .HasMaxLength(100)
                 .HasColumnName("nameCategory");
