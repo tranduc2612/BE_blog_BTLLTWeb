@@ -1,6 +1,7 @@
 ﻿using BE_blog_BTLLTWeb.Models;
 using BE_blog_BTLLTWeb.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BE_blog_BTLLTWeb.Controllers
 {
@@ -40,7 +41,23 @@ namespace BE_blog_BTLLTWeb.Controllers
 
         public IActionResult FindAdvance()
         {
-            return View();
+            List<Category> lstCate = db.Categories.ToList();
+            return View(lstCate);
         }
-    }
+
+		[HttpPost]
+		public IActionResult FindAdvanceResult(string namepost,string authorpost,string date,List<string> topic)
+		{
+            FindAdvanceViewModel viewmodel = new FindAdvanceViewModel(namepost,authorpost,date);
+            List<Blog> data = viewmodel.ListResult;
+    
+            BlogByTypeViewModel lstResult = new BlogByTypeViewModel(data, topic);
+
+            return View(lstResult.ListBlogByType);
+            
+		}
+
+		
+		
+	}
 }

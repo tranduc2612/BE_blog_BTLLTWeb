@@ -3,7 +3,7 @@
     ViewData["Title"] = "FindAdvance";
     Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
 }
-
+@model List<Category>
 			<!-- end s-header -->
 
 			<div class="s-content">
@@ -12,165 +12,25 @@
 				</header>
 
 				<div class="advance__form">
-					<form method="get" action="">
+		<form method="post" asp-action="FindAdvanceResult" asp-controller="Site">
 						<div class="advance__form-field">
 							<label class="advance__form-title" for="">Topics</label>
 							<ul class="topic__list">
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Sport"
-										>Sport</label
+					@foreach(var item in Model)
+					{
+						<li class="topic__list-item">
+									<label class="btn btn--stroke label__topic" for="@item.NameCategory"
+										>@item.NameCategory</label
 									>
 									<input
 										class="checkbox__topic"
-										id="Sport"
+										id="@item.NameCategory"
 										type="checkbox"
 										name="topic"
-										value="Sport"
+										value="@item.IdCategory"
 									/>
 								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Music"
-										>Music</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Music"
-										type="checkbox"
-										name="topic"
-										value="Music"
-									/>
-								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Travel"
-										>Travel</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Travel"
-										type="checkbox"
-										name="topic"
-										value="Travel"
-									/>
-								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Environment"
-										>Environment</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Environment"
-										type="checkbox"
-										name="topic"
-										value="Environment"
-									/>
-								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Dance"
-										>Dance</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Dance"
-										type="checkbox"
-										name="topic"
-										value="Dance"
-									/>
-								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Life"
-										>Life</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Life"
-										type="checkbox"
-										name="topic"
-										value="Life"
-									/>
-								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Code"
-										>Code</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Code"
-										type="checkbox"
-										name="topic"
-										value="Code"
-									/>
-								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Industry"
-										>Industry</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Industry"
-										type="checkbox"
-										name="topic"
-										value="Industry"
-									/>
-								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Fashion"
-										>Fashion</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Fashion"
-										type="checkbox"
-										name="topic"
-										value="Fashion"
-									/>
-								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Politic"
-										>Politic</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Politic"
-										type="checkbox"
-										name="topic"
-										value="Politic"
-									/>
-								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Game"
-										>Game</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Game"
-										type="checkbox"
-										name="topic"
-										value="Game"
-									/>
-								</li>
-
-								<li class="topic__list-item">
-									<label class="btn btn--stroke label__topic" for="Old"
-										>Old</label
-									>
-									<input
-										class="checkbox__topic"
-										id="Old"
-										type="checkbox"
-										name="topic"
-										value="Old"
-									/>
-								</li>
+					}
 							</ul>
 						</div>
 
@@ -193,7 +53,7 @@
 								>Search for name post:</label
 							>
 							<input
-								name="name-post"
+								name="namepost"
 								class="full-width"
 								type="text"
 								placeholder="Enter name post"
@@ -205,7 +65,7 @@
 								>Search for author post</label
 							>
 							<input
-								name="author-post"
+								name="authorpost"
 								class="full-width"
 								type="text"
 								placeholder="Enter name author"
@@ -226,5 +86,7 @@
 
 			<!-- footer
         ================================================== -->
-
+		@section findadvance{
+			<script src="../js/create_post.js"></script>
+		}
 
