@@ -317,6 +317,10 @@
       "PackagePath": "staticwebassets\\Ckeditor\\webpack.config.js"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\mylinh\\1680440814288single-gallery-03-2000.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\mylinh\\1680440814288single-gallery-03-2000.jpg"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\tranminhduc\\1679645495346wheel-2000.jpg",
       "PackagePath": "staticwebassets\\ImagePost\\tranminhduc\\1679645495346wheel-2000.jpg"
     },
@@ -331,6 +335,22 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\doducliem\\wheel-1000.jpg",
       "PackagePath": "staticwebassets\\ImageTitle\\doducliem\\wheel-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\mylinh\\single-gallery-03-2000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\mylinh\\single-gallery-03-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\single-gallery-01-2000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\single-gallery-01-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\single-gallery-02-2000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\single-gallery-02-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\single-gallery-03-2000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\single-gallery-03-2000.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\standard-2000.jpg",

@@ -12,13 +12,25 @@ namespace BE_blog_BTLLTWeb.ViewModels
 		{
 			var listForAdvance = db.Blogs.ToList();
 
-			if (date != null)
+			if (date != null && postname != null)
 			{
 				var newDate = date.Trim().Split("to");
 				DateTime beginDate = DateTime.Parse(newDate[0]);
 				DateTime endDate = DateTime.Parse(newDate[1]);
 				listForAdvance = listForAdvance.Where(x => x.CreateAt >= beginDate && x.CreateAt <= endDate && x.Title.Contains(postname)).ToList();
+			}else if(date != null)
+			{
+
+				var newDate = date.Trim().Split("to");
+				DateTime beginDate = DateTime.Parse(newDate[0]);
+				DateTime endDate = DateTime.Parse(newDate[1]);
+				listForAdvance = listForAdvance.Where(x => x.CreateAt >= beginDate && x.CreateAt <= endDate).ToList();
+
 			}
+			else if(postname != null) { 
+				listForAdvance = listForAdvance.Where(x => x.Title.Contains(postname)).ToList();
+			}
+			
 
 			List<Blog> newList = new List<Blog>();
 			if(authorpost != null && listForAdvance.Count != 0)
@@ -40,10 +52,13 @@ namespace BE_blog_BTLLTWeb.ViewModels
 						newList.Add(blog);
 					}
 				}
+				ListResult = newList;
+			}
+			else
+			{
+				ListResult = listForAdvance;
 			}
 
-			ListResult = newList;
-			BlogByTypeViewModel lst = new BlogByTypeViewModel();
 		}
 
 		public List<Blog> ListResult { get => listResult; set => listResult = value; }

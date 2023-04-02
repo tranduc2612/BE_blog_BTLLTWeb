@@ -4,7 +4,9 @@
     Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
 }
 
-@model List<Blog>
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common;
+@model X.PagedList.IPagedList<Blog>
 @{
 	var isDelete = false;
 }
@@ -16,7 +18,7 @@
 	</header>
 
 	<div class="search__ypost">
-		<form>
+		<form asp-action="YourPost" asp-controller="Post" method="get">
 			<div class="search__ypost-field">
 				<label for="nameypost">Search name post</label>
 				<input class="full-width"
@@ -32,7 +34,7 @@
 					   id="rangeDate"
 					   placeholder="Please select Date Range"
 					   data-input
-					   name="dateypost" />
+					   name="date" />
 			</div>
 
 			<button class="btn" type="search">Search</button>
@@ -95,15 +97,42 @@
 		<div class="column large-full">
 			<nav class="pgn">
 				<ul>
-					<li><a class="pgn__prev" href="#0">Prev</a></li>
-					<li><a class="pgn__num" href="#0">1</a></li>
-					<li><span class="pgn__num current">2</span></li>
-					<li><a class="pgn__num" href="#0">3</a></li>
-					<li><a class="pgn__num" href="#0">4</a></li>
-					<li><a class="pgn__num" href="#0">5</a></li>
-					<li><span class="pgn__num dots">…</span></li>
-					<li><a class="pgn__num" href="#0">8</a></li>
-					<li><a class="pgn__next" href="#0">Next</a></li>
+					@if (Model.HasPreviousPage)
+					{
+						<li><a class="pgn__prev" href="@Url.Action("YourPost", new { page = Model.PageNumber - 1,ViewBag.name,ViewBag.date })">Previous</a></li>
+					}
+
+
+					@{
+						bool displayDots = true;
+					}
+
+					@for (int i = 1; i <= Model.PageCount; i++)
+					{
+						if ((i >= Model.PageNumber - 2 && i <= Model.PageNumber + 2) || i == 1 || i == Model.PageCount)
+						{
+							if (i == Model.PageNumber)
+							{
+								<li><span class="pgn__num current">@i</span></li>
+							}
+							else
+							{
+								<li><a class="pgn__num" href="@Url.Action("YourPost", new { page = i,ViewBag.name,ViewBag.date })">@i</a></li>
+							}
+
+							displayDots = true; // Reset flag when a valid page is found
+						}
+						else if (displayDots)
+						{
+							<li><span class="pgn__num dots">...</span></li>
+							displayDots = false; // Set flag to prevent multiple dots
+						}
+					}
+
+					@if (Model.HasNextPage)
+					{
+						<li><a class="pgn__next" href="@Url.Action("YourPost", new { page = Model.PageNumber + 1,ViewBag.name,ViewBag.date})">Next</a></li>
+					}
 				</ul>
 			</nav>
 		</div>
@@ -112,19 +141,21 @@
 
 @section deleteYourPost{
 	<script>
+		let idBlog;
+		let idUser;
 		$(".btn-yes").on("click", (e) => {
-			let idBlog = $(".btn-delete").attr("idBlog");
-			let idUser = $(".btn-delete").attr("idUser");
-
 			const link = document.createElement("a");
 			link.href = `/Post/DeletePost?idBlog=${idBlog}&idUser=${idUser}`
+			console.log(link.href)
 			link.click();
 		});
 
 		$(".btn-no").on("click", (e) => {
 			$(".messages-popup").css("display", "none");
 		});
-		$(".btn-delete").on("click", (e) => {
+		$(".btn-delete").on("click", function(e){
+			idBlog = $(this).attr("idBlog");
+			idUser = $(this).attr("idUser");
 			$(".messages-popup").css("display", "block");
 		});
 	</script>

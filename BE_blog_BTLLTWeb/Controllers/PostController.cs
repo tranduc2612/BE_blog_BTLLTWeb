@@ -1,12 +1,17 @@
-﻿using BE_blog_BTLLTWeb.Models;
+﻿using Azure;
+using BE_blog_BTLLTWeb.Models;
 using BE_blog_BTLLTWeb.Models.Authentication;
 using BE_blog_BTLLTWeb.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using System.Collections.Generic;
+using System.Drawing.Printing;
 using System.IO;
 using System.Reflection.Metadata;
+using System.Security;
+using X.PagedList;
 using Xunit.Abstractions;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
@@ -73,8 +78,13 @@ namespace BE_blog_BTLLTWeb.Controllers
 			{
 				string fileUser = HttpContext.Session.GetString("UserName").ToString();
 				string serverMapPath = Path.Combine(this._env.WebRootPath, "ImageTitle", fileUser);
+                if (!Directory.Exists(serverMapPath))
+                {
+					Directory.CreateDirectory(serverMapPath);
+				}
+
 				string serverMapPathFile = Path.Combine(serverMapPath, image.FileName);
-				Directory.CreateDirectory(serverMapPath);
+			
 				using (var stream = new FileStream(serverMapPathFile, FileMode.Create))
 				{
 					image.CopyTo(stream);
@@ -88,10 +98,12 @@ namespace BE_blog_BTLLTWeb.Controllers
                 var category = db.Categories.Find(int.Parse(topicItem));
                 blog.IdCategories.Add(category);
 			}
+
             db.Blogs.Add(blog);
             db.SaveChanges();
-			List<Blog> currentUserBlog = db.Blogs.Where(x => x.IdAccount == currentId).ToList();
-			return View("YourPost",currentUserBlog);
+			List<Blog> currentUserBlog = db.Blogs.Where(x => x.IdAccount == currentId).OrderByDescending(x => x.CreateAt).ToList();
+			PagedList<Blog> lstTypeXList = new PagedList<Blog>(currentUserBlog, 1, 5);
+			return View("YourPost", lstTypeXList);
 
 		}
 
@@ -179,25 +191,33 @@ namespace BE_blog_BTLLTWeb.Controllers
 			}
             TempData["mountlike"] = db.LikeBlogs.Where(x => x.IdBlog == IdBlog).Count();
 			Blog blog = db.Blogs.Where(x=>x.IdBlog == IdBlog).FirstOrDefault();
+            if(blog == null)
+            {
+                return RedirectToAction("Index", "Site");
+            }
             DetailBlogViewModel detail = new DetailBlogViewModel(blog);
 			return View(detail);
 		}
 
         [Authentication]
+
         public IActionResult DeletePost(string idBlog, string idUser)
         {
-            
-            if(idBlog == null || idUser == null || int.Parse(idUser) != (int)HttpContext.Session.GetInt32("idUser"))
+          
+			if (idBlog == null || idUser == null || int.Parse(idUser) != (int)HttpContext.Session.GetInt32("idUser"))
             {
-				return RedirectToAction("YourPost");
+
+				return RedirectToAction("YourPost", "Post");
 			}
 
 			Blog blog = db.Blogs.FirstOrDefault(a => a.IdBlog == int.Parse(idBlog));
 
 			if (blog == null)
             {
-				return RedirectToAction("YourPost");
+
+				return RedirectToAction("YourPost", "Post");
 			}
+
 			List<LikeBlog> listlikeblog = db.LikeBlogs.Where(x => x.IdBlog == int.Parse(idBlog)).ToList();
             List<CommentBlog> listcommentblog = db.CommentBlogs.Where(x => x.IdBlog == int.Parse(idBlog)).ToList();
 
@@ -212,11 +232,7 @@ namespace BE_blog_BTLLTWeb.Controllers
 
             db.Categories.ToList();
 
-
-
-
             var listCategoryotrongBlog = db.Blogs.Where(x => x.IdBlog == int.Parse(idBlog)).SelectMany(x => x.IdCategories).ToList();
-
 
             foreach (var item in listCategoryotrongBlog)
             {
@@ -231,77 +247,31 @@ namespace BE_blog_BTLLTWeb.Controllers
 
                 }
             }
-
-            //foreach (var item in listCategoryotrongBlog)
-            //{
-            //    var category = db.Categories.Where(c => c.IdBlogs == ).FirstOrDefault(c => c.IdCategory == item.IdCategory);
-            //    var blogToRemove = category.IdBlogs.FirstOrDefault(b => b.IdBlog == int.Parse(idBlog));
-
-
-            //    if (blogToRemove != null)
-            //    {
-            //        category.IdBlogs.Remove(blogToRemove);
-            //        db.SaveChanges();
-
-            //    }
-            //}
             db.Blogs.Remove(blog);
-
-			//foreach (var item in listCategoryotrongBlog)
-			//         {
-			//	var blogs = db.Blogs.Where(b => b.IdCategories.Any(c => c.IdCategory == item.IdCategory));
-			//	db.Blogs.RemoveRange(blogs);
-			//	db.SaveChanges();
-			//}
-			//foreach (var item in listCategoryotrongBlog)
-			//{
-
-			//    blog.IdCategories.Remove(item);
-			//    //var data =  item.IdBlogs.SelectMany(x=>x.IdCategories).ToList();
-
-			//}
-
-			//if (blog != null)
-			//{
-			//	var category = blog.IdCategories.ToList();
-			//	foreach (var cat in category)
-			//	{
-			//		blog.IdCategories.Remove(cat);
-			//	}
-			//	db.SaveChanges();
-			//}
-
-			//var BlogCategory = db.Blogs.Where(x => x.IdBlog == blog.IdBlog).SelectMany(x => x.IdCategories).ToList();
-			//foreach (var category in BlogCategory)
-			//{
-			//    var detailBlog = db.Categories.Where(x => x.IdCategory == category.IdCategory).SelectMany(x => x.IdBlogs);
-
-			//    blog.IdCategories.Remove(category);
-			//}
-
-			//for (int i=0; i<blog.IdCategories.Count; i++)
-			//{
-
-			//}
 			db.SaveChanges();
-			return RedirectToAction("YourPost");
+			
+			return RedirectToAction("YourPost","Post");
         }
 
 
-		public IActionResult Category(string? type)
+		public IActionResult Category(string? type,int? page)
 		{
+			int pageNum = page == null || page < 1 ? 1 : page.Value;
+			int pageSize = 9;
 			if (type != null)
             {
 				TempData["namecategory"] = db.Categories.Find(int.Parse(type)).NameCategory;
 				BlogByTypeViewModel bloglistType = new BlogByTypeViewModel(type);
                 List<CategoryBlog> lstType = bloglistType.ListBlogByType;
-				return View(lstType);
+                PagedList<CategoryBlog> lstTypeXList = new PagedList<CategoryBlog>(lstType,pageNum,pageSize);
+				return View(lstTypeXList);
             }
 
 			TempData["namecategory"] = "All";
 			BlogByTypeViewModel blogModel = new BlogByTypeViewModel();
 			List<CategoryBlog> allList = blogModel.ListBlogByType;
-			return View(allList);
+			PagedList<CategoryBlog> lstAllXList = new PagedList<CategoryBlog>(allList, pageNum, pageSize);
+			return View(lstAllXList);
 		}
 
 	    
@@ -373,15 +343,31 @@ namespace BE_blog_BTLLTWeb.Controllers
 		}
 
 		[Authentication]
-        public IActionResult YourPost()
+        public IActionResult YourPost(int? page, string? date, string? name)
         {
-            if (HttpContext.Session.GetInt32("idUser") != null)
+			int pageNum = page == null || page < 1 ? 1 : page.Value;
+			int pageSize = 5;
+			if (HttpContext.Session.GetInt32("idUser") != null && date == null && name == null)
             {
 				int currentId = (int)HttpContext.Session.GetInt32("idUser");
 				List<Blog> currentUserBlog = db.Blogs.Where(x => x.IdAccount == currentId).OrderByDescending(x => x.CreateAt).ToList();
-                 return View(currentUserBlog);
+				PagedList<Blog> lstTypeXList = new PagedList<Blog>(currentUserBlog, pageNum, pageSize);
+				return View(lstTypeXList);
+			}
+            if(HttpContext.Session.GetInt32("idUser") != null && date !=null && date != null) {
+				var newDate = date.Trim().Split("to");
+				DateTime beginDate = DateTime.Parse(newDate[0]);
+				DateTime endDate = DateTime.Parse(newDate[1]);
+				List<Blog> lst = db.Blogs.Where(x => x.CreateAt > beginDate && x.CreateAt <= endDate && x.Title.Contains(name)).ToList();
+				PagedList<Blog> lstTypeXList = new PagedList<Blog>(lst, pageNum, pageSize);
+				ViewBag.name = name;
+				ViewBag.date = date;
+				return View(lstTypeXList);
+
 			}
             return View();
         }
+
+		
 	}
 }

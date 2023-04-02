@@ -779,3 +779,7 @@ C:\Users\OSC\Desktop\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb\bin\Debug\net6.0\runtimes
 C:\Users\OSC\Desktop\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb\bin\Debug\net6.0\xunit.abstractions.dll
 C:\Users\OSC\Desktop\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb\bin\Debug\net6.0\xunit.core.dll
 C:\Users\OSC\Desktop\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb\bin\Debug\net6.0\xunit.execution.dotnet.dll
+C:\Users\OSC\Desktop\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\OSC\Desktop\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\OSC\Desktop\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+C:\Users\OSC\Desktop\BE_blog_BTLLTWeb\BE_blog_BTLLTWeb\obj\Debug\net6.0\BE_blog_BTLLTWeb.MvcApplicationPartsAssemblyInfo.cs
