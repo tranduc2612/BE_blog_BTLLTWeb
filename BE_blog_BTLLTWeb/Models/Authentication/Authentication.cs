@@ -8,10 +8,13 @@ namespace BE_blog_BTLLTWeb.Models.Authentication
         public override void OnActionExecuted(ActionExecutedContext context)
         {
             base.OnActionExecuted(context);
-            if (context.HttpContext.Session.GetString("UserName") == null)
+			
+			if (context.HttpContext.Session.GetString("UserName") == null)
             {
                 context.Result = new RedirectToRouteResult(new RouteValueDictionary { { "Controller", "Auth" }, { "Action", "Login" } });
             }
-        }
+
+		
+		}
     }
 }

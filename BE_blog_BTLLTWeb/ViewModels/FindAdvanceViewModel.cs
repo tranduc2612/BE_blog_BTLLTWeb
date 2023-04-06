@@ -10,7 +10,7 @@ namespace BE_blog_BTLLTWeb.ViewModels
 		private List<Blog> listResult;
 		public FindAdvanceViewModel(string postname,string authorpost,string date)
 		{
-			var listForAdvance = db.Blogs.ToList();
+			var listForAdvance = db.Blogs.Where(x=>x.Status==2).ToList();
 
 			if (date != null && postname != null)
 			{

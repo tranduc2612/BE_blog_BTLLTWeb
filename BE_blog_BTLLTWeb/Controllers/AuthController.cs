@@ -22,6 +22,21 @@ namespace BE_blog_BTLLTWeb.Controllers
         [HttpPost]        
 		public IActionResult Login(Account account)
 		{
+			if(account.UserName == "Admin")
+			{
+				AdminBlog admin = db.AdminBlogs.Where(x => account.Pass == x.AdminPass).FirstOrDefault();
+				if(admin != null)
+				{
+					HttpContext.Session.SetString("Admin", admin.AdminAccount.ToString());
+					return RedirectToAction("Index", "Post", new { area = "Admin" });
+				}
+				else
+				{
+					ViewBag.isExist = false;
+					return View();
+				}
+			}
+
 			Account acc = db.Accounts.Where(x => x.UserName == account.UserName && x.Pass == account.Pass).FirstOrDefault();
 			if (acc != null)
 			{

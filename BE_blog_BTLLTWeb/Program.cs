@@ -1,4 +1,7 @@
 
+using BE_blog_BTLLTWeb.Models;
+using BE_blog_BTLLTWeb.Repository;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,14 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+var connectionString = builder.Configuration.GetConnectionString("BlogBtlContext");
+builder.Services.AddDbContext<BlogBtlContext>(x=>x.UseSqlServer(connectionString));
+
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 builder.Services.AddSession();
 
-
-
 var app = builder.Build();
-
-
-
+    
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

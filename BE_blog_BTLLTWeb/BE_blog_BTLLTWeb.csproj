@@ -22,9 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
     <Folder Include="wwwroot\ImagePost\" />
     <Folder Include="wwwroot\images\avatars\tranminhduc\" />
     <Folder Include="wwwroot\ImageTitle\" />
+    <Folder Include="wwwroot\Admin\" />
   </ItemGroup>
 
 </Project>

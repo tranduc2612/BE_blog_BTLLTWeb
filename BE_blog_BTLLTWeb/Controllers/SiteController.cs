@@ -16,7 +16,7 @@ namespace BE_blog_BTLLTWeb.Controllers
             //HttpContext.Session.SetInt32("idUser", 1);
             //HttpContext.Session.SetString("FullName", "Trần Minh Đức");
             //HttpContext.Session.SetString("Avatar", "./../images/avatars/user-01.jpg");
-            List<Blog> blogTop5 = db.Blogs.OrderByDescending(x=>x.AmountLike).Take(5).ToList();
+            List<Blog> blogTop5 = db.Blogs.Where(x=>x.Status==2).OrderByDescending(x=>x.AmountLike).Take(5).ToList();
             List<DetailBlogViewModel> lstBlog = new List<DetailBlogViewModel>();
 
 			foreach (var item in blogTop5)

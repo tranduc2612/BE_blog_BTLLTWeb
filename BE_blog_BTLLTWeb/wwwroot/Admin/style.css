@@ -1,0 +1,27 @@
+*{
+    
+}
+
+td{
+}
+
+td span{
+    display: inline-block;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+
+.nav-item .nav-icon {
+    transform: rotate(0deg);
+    transition: all .6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+}
+
+.nav-item:hover .nav-icon{
+    transform: rotate(360deg);
+}
+
+

@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\BE_blog_BTLLTWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Admin\\index.js",
+      "PackagePath": "staticwebassets\\Admin\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Admin\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\style.css"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\Ckeditor\\LICENSE.md",
       "PackagePath": "staticwebassets\\Ckeditor\\LICENSE.md"
     },
@@ -317,6 +325,10 @@
       "PackagePath": "staticwebassets\\Ckeditor\\webpack.config.js"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\TakaSakai\\16805144967376382715.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\TakaSakai\\16805144967376382715.jpg"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\mylinh\\1680440814288single-gallery-03-2000.jpg",
       "PackagePath": "staticwebassets\\ImagePost\\mylinh\\1680440814288single-gallery-03-2000.jpg"
     },
@@ -333,6 +345,10 @@
       "PackagePath": "staticwebassets\\ImagePost\\tranminhduc\\1679652962971standard-1000.jpg"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\TakaSakai\\334915478_1135697117202135_5228134943451106029_n.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\TakaSakai\\334915478_1135697117202135_5228134943451106029_n.jpg"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\doducliem\\wheel-1000.jpg",
       "PackagePath": "staticwebassets\\ImageTitle\\doducliem\\wheel-1000.jpg"
     },
@@ -341,8 +357,16 @@
       "PackagePath": "staticwebassets\\ImageTitle\\mylinh\\single-gallery-03-2000.jpg"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\single-gallery-01-1000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\single-gallery-01-1000.jpg"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\single-gallery-01-2000.jpg",
       "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\single-gallery-01-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\single-gallery-02-1000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\single-gallery-02-1000.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\single-gallery-02-2000.jpg",
@@ -411,6 +435,18 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\images\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\levansy\\338170629_1385412425645224_3835160975926136846_n.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\levansy\\338170629_1385412425645224_3835160975926136846_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\lexuanquynh\\338347182_1142696016396972_2523939214791352353_n.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\lexuanquynh\\338347182_1142696016396972_2523939214791352353_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\minhngoc\\ngoc.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\minhngoc\\ngoc.png"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\mylinh\\MyLinh.jpg",

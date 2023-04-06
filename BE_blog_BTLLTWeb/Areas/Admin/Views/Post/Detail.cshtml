@@ -1,0 +1,137 @@
+﻿@using BE_blog_BTLLTWeb.Areas.Admin.Models;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model BlogTable
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		<!--- basic page needs
+	================================================== -->
+		<meta charset="utf-8" />
+		<title>Standard Post - Typerite</title>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+
+		<!-- mobile specific metas
+	================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- CSS
+	================================================== -->
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/vendor.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+
+		<!-- script
+	================================================== -->
+		<script src="../js/modernizr.js"></script>
+
+		<!-- favicons
+	================================================== -->
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+		<link rel="manifest" href="site.webmanifest" />
+	</head>
+
+	<body class="ss-bg-white">
+		<!-- preloader
+	================================================== -->
+		<div id="preloader">
+			<div id="loader" class="dots-fade">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+		
+		
+			<!-- site content
+		================================================== -->
+			<div class="content">
+				<main class="row content__page">
+					<article class="column large-full entry format-standard">
+						<div class="media-wrap entry__media">
+							<div class="entry__post-thumb">
+								<img
+									style="height: 100%"
+									src="@Model.Blog.ImageTitle"
+									alt=""
+								/>
+							</div>
+						</div>
+
+						<div class="content__page-header entry__header">
+							<h1 class="display-1 entry__title">
+								@Model.Blog.Title
+							</h1>
+							<ul class="entry__header-meta">
+								<li class="author">By <a href="#0">@Model.NameAuthor</a></li>
+						<li class="date">@Model.Blog.CreateAt.ToString("MMM dd, yyyy")</li>
+							</ul>
+						</div>
+						<!-- end entry__header -->
+
+						<div class="entry__content">
+							
+						</div>
+
+						<div style="display:flex;align-items:center;justify-content:center">
+					@if(Model.Blog.Status == 1)
+					{
+						<a asp-action="Accept" asp-controller="Post" asp-route-idBlog="@Model.Blog.IdBlog" class="btn btn--primary">
+							Accept
+						</a>
+
+						<a asp-action="Reject" asp-controller="Post" asp-route-idBlog="@Model.Blog.IdBlog" class="btn btn--stroke">
+							Reject
+						</a>
+					}
+				
+					<a asp-action="Index" asp-controller="Post" class="btn">
+						Back
+					</a>
+						</div>
+						
+				</main>
+			</div>
+			<!-- end s-content -->
+
+			<!-- footer
+		================================================== -->
+			<footer class="s-footer footer">
+				<div class="row">
+					<div class="column large-full footer__content">
+						<div class="footer__copyright">
+							<span>© Copyright Typerite 2019</span>
+							<span>Design by
+								<a href="https://www.styleshout.com/">StyleShout</a></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="go-top">
+					<a class="smoothscroll" title="Back to Top" href="#top"></a>
+				</div>
+			</footer>
+		</div>
+		<!-- end s-wrap -->
+
+		<!-- Java Script
+	================================================== -->
+		<script src="../js/jquery-3.2.1.min.js"></script>
+		<script src="../js/plugins.js"></script>
+		<script src="../js/main.js"></script>
+	<script>
+		// get content post
+		$(".entry__content").append('@Html.Raw(@Model.Blog.Content.ToString())')
+	</script>
+	</body>
+</html>
