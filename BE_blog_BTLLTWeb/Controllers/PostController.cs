@@ -200,7 +200,6 @@ namespace BE_blog_BTLLTWeb.Controllers
 		}
 
         [Authentication]
-
         public IActionResult DeletePost(string idBlog, string idUser)
         {
           
@@ -239,12 +238,10 @@ namespace BE_blog_BTLLTWeb.Controllers
                 var category = db.Categories.Include(c => c.IdBlogs).FirstOrDefault(c => c.IdCategory == item.IdCategory);
                 var blogToRemove = category.IdBlogs.FirstOrDefault(b => b.IdBlog == int.Parse(idBlog));
 
-
                 if (blogToRemove != null)
                 {
                     category.IdBlogs.Remove(blogToRemove);
                     db.SaveChanges();
-
                 }
             }
             db.Blogs.Remove(blog);

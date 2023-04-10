@@ -31,7 +31,6 @@ inputImage.on("change", (e) => {
 	const file = e.target.files[0];
 	if (regexImg.test(inputImage.val())) {
 		if (file.size > 1024 * 1024) {
-
 			showMessageAndAutoClose(
 				errBox,
 				susBox,
@@ -39,6 +38,7 @@ inputImage.on("change", (e) => {
 				"File higher than 1mb !",
 				500
 			);
+			inputImage.val("")
 			return;
 		}
 		const image = new Image();
@@ -50,7 +50,6 @@ inputImage.on("change", (e) => {
 				const heightImg = image.height;
 				if (widthImg >= 1000 && heightImg <= widthImg / 2 + 250) {
 					console.log("hello")
-
 					imgPreview.attr("src", reader.result);
 					showMessageAndAutoClose(
 						susBox,
@@ -64,9 +63,11 @@ inputImage.on("change", (e) => {
 						errBox,
 						susBox,
 						messageErrBox,
-						"Size have to bigger than 1000x1250 !",
+						"Size have to bigger than 2000x1500 !",
 						500
 					);
+					inputImage.val("")
+					
 				}
 			};
 		};
@@ -78,6 +79,7 @@ inputImage.on("change", (e) => {
 			"The file is not correct format !",
 			500
 		);
+		inputImage.val("")
 	}
 });
 

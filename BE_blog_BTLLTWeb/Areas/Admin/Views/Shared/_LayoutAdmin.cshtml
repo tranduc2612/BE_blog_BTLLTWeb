@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
@@ -51,31 +52,29 @@
 							</a>
 						</li>
 						<li class="nav-item mt-2 mb-2">
-							<a class="nav-link" href="#">
+							<a class="nav-link" asp-action="Index" asp-controller="Post" asp-area="Admin">
 								<i class="nav-icon fa-sharp fa-solid fa-blog text-white me-2 fs-4"></i>
 								<span>Blog</span>
 							</a>
 						</li>
 						<li class="nav-item mt-2 mb-2">
-							<a class="nav-link" href="#">
+							<a class="nav-link" asp-action="UserList" asp-controller="User" asp-area="Admin">
 								<i class="nav-icon fa-sharp fa-solid fa-user-group text-white me-2 fs-4"></i>
 								<span>User</span>
 							</a>
 						</li>
 						<li class="nav-item mt-2 mb-2">
-							<a class="nav-link" href="#">
+							<a class="nav-link" class="nav-link" asp-action="ListTopic" asp-controller="Topic" asp-area="Admin">
 								<i class="nav-icon fa-sharp fa-solid fa-tag text-white me-2 fs-4"></i>
 								<span>Topic</span>
 							</a>
 						</li>
 
 						<li class="nav-item mt-2 mb-2">
-							<a class="nav-link" href="#">
+							<a class="nav-link" asp-action="LogOut" asp-controller="Auth" asp-area="Admin">
 								<i class="nav-icon fa-sharp fa-solid fa-arrow-right-from-bracket text-white me-2 fs-4"></i>
 								<span>
-									LogOut<a href="../../index.html">
-
-									</a>
+									LogOut
 								</span>
 							</a>
 						</li>
@@ -94,4 +93,5 @@
 		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
 		crossorigin="anonymous"></script>
 <script src="index.js"></script>
+@RenderSection("update",required:false)
 </html>

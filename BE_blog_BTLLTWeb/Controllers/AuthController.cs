@@ -27,7 +27,7 @@ namespace BE_blog_BTLLTWeb.Controllers
 				AdminBlog admin = db.AdminBlogs.Where(x => account.Pass == x.AdminPass).FirstOrDefault();
 				if(admin != null)
 				{
-					HttpContext.Session.SetString("Admin", admin.AdminAccount.ToString());
+					HttpContext.Session.SetString("Admin", admin.IdAdmin.ToString());
 					return RedirectToAction("Index", "Post", new { area = "Admin" });
 				}
 				else
@@ -40,6 +40,11 @@ namespace BE_blog_BTLLTWeb.Controllers
 			Account acc = db.Accounts.Where(x => x.UserName == account.UserName && x.Pass == account.Pass).FirstOrDefault();
 			if (acc != null)
 			{
+				if(acc.IdAdmin != null)
+				{
+					ViewBag.isBan = false;
+					return View();
+				}
                 HttpContext.Session.SetString("UserName", acc.UserName.ToString());
                 HttpContext.Session.SetInt32("idUser", acc.IdAccount);
 				HttpContext.Session.SetString("FullName", acc.Fullname.ToString());

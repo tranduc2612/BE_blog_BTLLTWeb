@@ -1,0 +1,58 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using BE_blog_BTLLTWeb.Models;
+@{
+    ViewData["Title"] = "UserList";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@{
+	BlogBtlContext db = new BlogBtlContext();
+	var AdminId = Context.Session.GetString("Admin");
+}
+@model List<Account>
+<div class="container mt-5">
+	<div class="current_page d-flex align-items-center mb-4">
+		<i class="nav-icon fa-sharp fa-solid fa-user-group me-3 fs-1"></i>
+		<!-- <i class="nav-icon fa-sharp fa-solid fa-blog fs-1 me-3"></i> -->
+		<h2>User</h2>
+	</div>
+	<div class="table-responsive">
+		<table class="table table-hover">
+			<thead class="table-dark">
+				<tr>
+					<th scope="col">User</th>
+					<th scope="col">FullName</th>
+					<th scope="col">PhoneNumber</th>
+					<th scope="col">Email</th>
+					<th scope="col">Address</th>
+					<th scope="col">Posts</th>
+					<th scope="col">Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach(var item in Model)
+				{
+					<tr>
+					<th scope="row">@item.IdAccount</th>
+					<td>
+						@item.Fullname
+					</td>
+					<td>@item.PhoneNumber</td>
+					<td>@item.Email</td>
+					<td>
+						<span>@item.Address</span>
+					</td>
+					<td>@db.Blogs.Where(x=>x.IdAccount==item.IdAccount).ToList().Count</td>
+					<td>
+						@if(item.IdAdmin == null){
+							<a asp-action="Ban" asp-controller="User" asp-area="Admin" asp-route-idUser="@item.IdAccount" asp-route-idAdmin="@AdminId" class="btn btn-outline-danger">Ban</a>
+						}else{
+							<a asp-action="UnBan" asp-controller="User" asp-area="Admin" asp-route-id="@item.IdAccount" class="btn btn-outline-warning">UnBan</a>
+						}
+					</td>
+				</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+
+</div>

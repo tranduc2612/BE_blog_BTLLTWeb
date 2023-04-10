@@ -7,6 +7,19 @@
 @{
 	var isExist = "";
 	var messDis = "";
+	var messDisBan = "";
+	var isBan = "";
+	if (ViewBag.isBan == null)
+	{
+		messDisBan = "";
+		isBan = "d-none";
+	}
+	else
+	{
+		messDisBan = "d-block";
+		isBan = "";
+	}
+
 	if (ViewBag.isExist == null)
 	{
 		messDis = "";
@@ -35,9 +48,10 @@
 					<div>
 						<label for="accountInput-login">Your account</label>
 						@Html.TextBoxFor(m => m.UserName,new {id="accountInput-login", placeholder = "UserName", @class = "full-width account-error",type="Text" })
-						<div class="account_required @messDis">
+					<div class="account_required @messDis @messDisBan">
 							<ul>
 							<li class="username"><span></span>This field isn't empty</li>
+							<li class="username @isBan"><span>Your Account is Banned !</span></li>
 							<li class="username @isExist"><span>PassWord or Account is wrong !</span></li>
 							</ul>
 						</div>

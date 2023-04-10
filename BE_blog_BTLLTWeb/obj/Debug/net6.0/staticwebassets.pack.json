@@ -345,6 +345,10 @@
       "PackagePath": "staticwebassets\\ImagePost\\tranminhduc\\1679652962971standard-1000.jpg"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\tranminhduc\\1681110038657338347182_1142696016396972_2523939214791352353_n.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\tranminhduc\\1681110038657338347182_1142696016396972_2523939214791352353_n.jpg"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\TakaSakai\\334915478_1135697117202135_5228134943451106029_n.jpg",
       "PackagePath": "staticwebassets\\ImageTitle\\TakaSakai\\334915478_1135697117202135_5228134943451106029_n.jpg"
     },
@@ -355,6 +359,14 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\mylinh\\single-gallery-03-2000.jpg",
       "PackagePath": "staticwebassets\\ImageTitle\\mylinh\\single-gallery-03-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\338170629_1385412425645224_3835160975926136846_n.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\338170629_1385412425645224_3835160975926136846_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\338347182_1142696016396972_2523939214791352353_n.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\338347182_1142696016396972_2523939214791352353_n.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\single-gallery-01-1000.jpg",
@@ -383,6 +395,98 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\tranminhduc\\wheel-2000.jpg",
       "PackagePath": "staticwebassets\\ImageTitle\\tranminhduc\\wheel-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\338170629_1385412425645224_3835160975926136846_n.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\338170629_1385412425645224_3835160975926136846_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\beetle-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\beetle-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\beetle-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\beetle-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\cookies-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\cookies-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\cookies-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\cookies-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\dew-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\dew-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\dew-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\dew-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\guitarist-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\guitarist-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\guitarist-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\guitarist-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\jump-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\jump-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\jump-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\jump-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\lamp-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\lamp-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\lamp-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\lamp-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\real-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\real-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\real-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\real-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\rucksack-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\rucksack-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\rucksack-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\rucksack-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\tulips-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\tulips-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\tulips-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\tulips-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\walk-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\walk-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\walk-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\walk-600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\woodcraft-1200.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\woodcraft-1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\woodcraft-600.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\woodcraft-600.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\android-chrome-192x192.png",
