@@ -349,12 +349,24 @@
       "PackagePath": "staticwebassets\\ImagePost\\tranminhduc\\1681110038657338347182_1142696016396972_2523939214791352353_n.jpg"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\tranminhduc\\1681128476369standard-500.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\tranminhduc\\1681128476369standard-500.jpg"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\TakaSakai\\334915478_1135697117202135_5228134943451106029_n.jpg",
       "PackagePath": "staticwebassets\\ImageTitle\\TakaSakai\\334915478_1135697117202135_5228134943451106029_n.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\doducliem\\wheel-1000.jpg",
       "PackagePath": "staticwebassets\\ImageTitle\\doducliem\\wheel-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\minhngoc\\contact-2000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\minhngoc\\contact-2000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\minhngoc\\single-gallery-01-2000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\minhngoc\\single-gallery-01-2000.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\mylinh\\single-gallery-03-2000.jpg",
@@ -399,6 +411,10 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\338170629_1385412425645224_3835160975926136846_n.jpg",
       "PackagePath": "staticwebassets\\ImageTopic\\338170629_1385412425645224_3835160975926136846_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\about-2000.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\about-2000.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\beetle-1200.jpg",
@@ -571,6 +587,10 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\tranminhduc\\334915478_1135697117202135_5228134943451106029_n.jpg",
       "PackagePath": "staticwebassets\\images\\avatars\\tranminhduc\\334915478_1135697117202135_5228134943451106029_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\tranminhduc\\sample-image.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\tranminhduc\\sample-image.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\user-01.jpg",
