@@ -14,7 +14,7 @@ namespace BE_blog_BTLLTWeb.Areas.Admin.Controllers
         [Route("index")]
         public IActionResult Index()
 		{
-			List<Blog> lst = db.Blogs.ToList();
+			List<Blog> lst = db.Blogs.OrderByDescending(x=>x.CreateAt).ToList();
 			List<BlogTable> tableBlog = new List<BlogTable>();
 			foreach(var blog in lst)
 			{

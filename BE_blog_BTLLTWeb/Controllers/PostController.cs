@@ -104,7 +104,7 @@ namespace BE_blog_BTLLTWeb.Controllers
 			List<Blog> currentUserBlog = db.Blogs.Where(x => x.IdAccount == currentId).OrderByDescending(x => x.CreateAt).ToList();
 			PagedList<Blog> lstTypeXList = new PagedList<Blog>(currentUserBlog, 1, 5);
 			return View("YourPost", lstTypeXList);
-
+            
 		}
 
         [HttpPost]
@@ -350,19 +350,27 @@ namespace BE_blog_BTLLTWeb.Controllers
 				List<Blog> currentUserBlog = db.Blogs.Where(x => x.IdAccount == currentId).OrderByDescending(x => x.CreateAt).ToList();
 				PagedList<Blog> lstTypeXList = new PagedList<Blog>(currentUserBlog, pageNum, pageSize);
 				return View(lstTypeXList);
-			}
-            if(HttpContext.Session.GetInt32("idUser") != null && date !=null && date != null) {
-				var newDate = date.Trim().Split("to");
-				DateTime beginDate = DateTime.Parse(newDate[0]);
-				DateTime endDate = DateTime.Parse(newDate[1]);
-				List<Blog> lst = db.Blogs.Where(x => x.CreateAt > beginDate && x.CreateAt <= endDate && x.Title.Contains(name)).ToList();
-				PagedList<Blog> lstTypeXList = new PagedList<Blog>(lst, pageNum, pageSize);
-				ViewBag.name = name;
-				ViewBag.date = date;
-				return View(lstTypeXList);
+            }
+            else
+            {
+                List<Blog> lst = db.Blogs.ToList();
+                if (date != null)
+                {
+                    var newDate = date.Trim().Split("to");
+                    DateTime beginDate = DateTime.Parse(newDate[0]);
+                    DateTime endDate = DateTime.Parse(newDate[1]);
+                    lst = lst.Where(x => x.CreateAt > beginDate && x.CreateAt <= endDate).ToList();
+                }
+                if(name != null)
+                {
+                    lst = lst.Where(x => x.Title.Contains(name)).ToList();
+                }
+                PagedList<Blog> lstTypeXList = new PagedList<Blog>(lst, pageNum, pageSize);
+                ViewBag.name = name;
+                ViewBag.date = date;
+                return View(lstTypeXList);
+            }
 
-			}
-            return View();
         }
 
 		

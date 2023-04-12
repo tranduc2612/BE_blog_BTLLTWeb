@@ -71,24 +71,32 @@ namespace BE_blog_BTLLTWeb.Areas.Admin.Controllers
 		[HttpPost]
         public ActionResult Update(string id,string newname,IFormFile image)
         {
-			if (id == null || newname == null || image == null)
+			if (id == null)
 			{
                 return RedirectToAction("ListTopic", "Topic", new { area = "Admin" });
-
             }
             Category cate = db.Categories.Where(x=>x.IdCategory == int.Parse(id)).FirstOrDefault();
 			if (cate == null)
 			{
                 return RedirectToAction("ListTopic", "Topic", new { area = "Admin" });
             }
-            cate.NameCategory = newname;
-            string serverMapPathFile = Path.Combine(this._env.WebRootPath, "ImageTopic", image.FileName);
-            using (var stream = new FileStream(serverMapPathFile, FileMode.Create))
-            {
-                image.CopyTo(stream);
+			if(newname != null)
+			{
+				cate.NameCategory = newname;
+			}
+
+			if(image != null)
+			{
+                string serverMapPathFile = Path.Combine(this._env.WebRootPath, "ImageTopic", image.FileName);
+                using (var stream = new FileStream(serverMapPathFile, FileMode.Create))
+                {
+                    image.CopyTo(stream);
+                }
+                string filepath = "../ImageTopic/" + image.FileName;
+                cate.Img = filepath;
             }
-            string filepath = "../ImageTopic/" + image.FileName;
-            cate.Img = filepath;
+
+
             string AdminId = HttpContext.Session.GetString("Admin");
             cate.IdAdmin = int.Parse(AdminId);
 			db.SaveChanges();

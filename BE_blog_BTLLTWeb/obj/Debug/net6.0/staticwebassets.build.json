@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cIOos22GHT4y8SuYviJMs8Vompt2K+UPEHimvUSjRVM=",
+  "Hash": "3lAk5z1QLFfqInN74nlpXtzPSTwc/Fc7nul9C1Ec4mU=",
   "Source": "BE_blog_BTLLTWeb",
   "BasePath": "_content/BE_blog_BTLLTWeb",
   "Mode": "Default",
@@ -3772,6 +3772,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ImageTopic\\lamp-600.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\ngoc.png",
+      "SourceId": "BE_blog_BTLLTWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "BasePath": "_content/BE_blog_BTLLTWeb",
+      "RelativePath": "ImageTopic/ngoc.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImageTopic\\ngoc.png"
     },
     {
       "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\real-1200.jpg",
