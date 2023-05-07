@@ -196,6 +196,18 @@ namespace BE_blog_BTLLTWeb.Controllers
                 return RedirectToAction("Index", "Site");
             }
             DetailBlogViewModel detail = new DetailBlogViewModel(blog);
+            BlogByTypeViewModel relative = new BlogByTypeViewModel(db.Blogs.ToList(), detail.IdCategory);
+			List<CategoryBlog> listBeginRelative = relative.ListBlogByType;
+            List<CategoryBlog> realRelative = new List<CategoryBlog>();
+            foreach(var item in listBeginRelative)
+            {
+                if(item.IdBlog != IdBlog)
+                {
+                    realRelative.Add(item);
+				}
+            }
+
+            ViewBag.relativeBlog = realRelative;
 			return View(detail);
 		}
 

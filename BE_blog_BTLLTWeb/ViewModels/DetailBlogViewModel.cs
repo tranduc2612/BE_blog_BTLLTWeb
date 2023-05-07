@@ -15,6 +15,7 @@ namespace BE_blog_BTLLTWeb.ViewModels
 		private string createTime;
 		private string idBlog;
 		private List<string> nameCategory;
+		private List<string> idCategory;
 
 		public DetailBlogViewModel(Blog blog)
 		{
@@ -28,9 +29,12 @@ namespace BE_blog_BTLLTWeb.ViewModels
 			createTime = blog.CreateAt.Date.ToString("MMM dd, yyyy");
 			author = db.Accounts.Find(idAuthor).Fullname;
 			nameCategory = new List<string>();
+			idCategory = new List<string>();
 			var lstCategory = db.Blogs.Where(x => x.IdBlog == blog.IdBlog).SelectMany(x => x.IdCategories).ToList();
 			foreach (var category in lstCategory)
 			{
+				string catestring = category.IdCategory.ToString();
+				idCategory.Add(catestring);
 				nameCategory.Add(category.NameCategory);
 			}
 
@@ -46,5 +50,6 @@ namespace BE_blog_BTLLTWeb.ViewModels
 		public string CreateTime { get => createTime; set => createTime = value; }
 		public List<string> NameCategory { get => nameCategory; set => nameCategory = value; }
 		public string IdBlog { get => idBlog; set => idBlog = value; }
+		public List<string> IdCategory { get => idCategory; set => idCategory = value; }
 	}
 }

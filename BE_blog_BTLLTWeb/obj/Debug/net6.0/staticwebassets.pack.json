@@ -329,6 +329,10 @@
       "PackagePath": "staticwebassets\\ImagePost\\TakaSakai\\16805144967376382715.jpg"
     },
     {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\kimsao\\1681346962942Hong.jpg",
+      "PackagePath": "staticwebassets\\ImagePost\\kimsao\\1681346962942Hong.jpg"
+    },
+    {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\mylinh\\1680440814288single-gallery-03-2000.jpg",
       "PackagePath": "staticwebassets\\ImagePost\\mylinh\\1680440814288single-gallery-03-2000.jpg"
     },
@@ -359,6 +363,10 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\doducliem\\wheel-1000.jpg",
       "PackagePath": "staticwebassets\\ImageTitle\\doducliem\\wheel-1000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\kimsao\\single-gallery-01-1000.jpg",
+      "PackagePath": "staticwebassets\\ImageTitle\\kimsao\\single-gallery-01-1000.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\minhngoc\\contact-2000.jpg",
@@ -411,6 +419,10 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\338170629_1385412425645224_3835160975926136846_n.jpg",
       "PackagePath": "staticwebassets\\ImageTopic\\338170629_1385412425645224_3835160975926136846_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\338347182_1142696016396972_2523939214791352353_n.jpg",
+      "PackagePath": "staticwebassets\\ImageTopic\\338347182_1142696016396972_2523939214791352353_n.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\about-2000.jpg",
@@ -559,6 +571,10 @@
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\images\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\kimsao\\AvatarCoSao.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\kimsao\\AvatarCoSao.jpg"
     },
     {
       "Id": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\levansy\\338170629_1385412425645224_3835160975926136846_n.jpg",

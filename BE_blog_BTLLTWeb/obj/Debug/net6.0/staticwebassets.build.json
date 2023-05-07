@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3lAk5z1QLFfqInN74nlpXtzPSTwc/Fc7nul9C1Ec4mU=",
+  "Hash": "Af59OkLyH/oyj2HksXhnSH9mDU0I3FZsv2hM+QXZw2I=",
   "Source": "BE_blog_BTLLTWeb",
   "BasePath": "_content/BE_blog_BTLLTWeb",
   "Mode": "Default",
@@ -1615,6 +1615,23 @@
       "OriginalItemSpec": "wwwroot\\favicon-32x32.png"
     },
     {
+      "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\kimsao\\1681346962942Hong.jpg",
+      "SourceId": "BE_blog_BTLLTWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "BasePath": "_content/BE_blog_BTLLTWeb",
+      "RelativePath": "ImagePost/kimsao/1681346962942Hong.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagePost\\kimsao\\1681346962942Hong.jpg"
+    },
+    {
       "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImagePost\\mylinh\\1680440814288single-gallery-03-2000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
@@ -1749,6 +1766,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\apple-touch-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\kimsao\\AvatarCoSao.jpg",
+      "SourceId": "BE_blog_BTLLTWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "BasePath": "_content/BE_blog_BTLLTWeb",
+      "RelativePath": "images/avatars/kimsao/AvatarCoSao.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\avatars\\kimsao\\AvatarCoSao.jpg"
     },
     {
       "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\images\\avatars\\levansy\\338170629_1385412425645224_3835160975926136846_n.jpg",
@@ -3315,6 +3349,23 @@
       "OriginalItemSpec": "wwwroot\\ImageTitle\\doducliem\\wheel-1000.jpg"
     },
     {
+      "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\kimsao\\single-gallery-01-1000.jpg",
+      "SourceId": "BE_blog_BTLLTWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "BasePath": "_content/BE_blog_BTLLTWeb",
+      "RelativePath": "ImageTitle/kimsao/single-gallery-01-1000.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImageTitle\\kimsao\\single-gallery-01-1000.jpg"
+    },
+    {
       "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTitle\\minhngoc\\contact-2000.jpg",
       "SourceId": "BE_blog_BTLLTWeb",
       "SourceType": "Discovered",
@@ -3551,6 +3602,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ImageTopic\\338170629_1385412425645224_3835160975926136846_n.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\338347182_1142696016396972_2523939214791352353_n.jpg",
+      "SourceId": "BE_blog_BTLLTWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\",
+      "BasePath": "_content/BE_blog_BTLLTWeb",
+      "RelativePath": "ImageTopic/338347182_1142696016396972_2523939214791352353_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImageTopic\\338347182_1142696016396972_2523939214791352353_n.jpg"
     },
     {
       "Identity": "C:\\Users\\OSC\\Desktop\\BE_blog_BTLLTWeb\\BE_blog_BTLLTWeb\\wwwroot\\ImageTopic\\about-2000.jpg",

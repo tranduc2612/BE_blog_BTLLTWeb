@@ -87,7 +87,12 @@ namespace BE_blog_BTLLTWeb.Controllers
 				ViewData["password"] = "Your password isn't match with confirm password !";
 				return View(currentUser);
 			}
-			currentUser.Fullname = fullName;
+			if(fullName != null)
+			{
+                HttpContext.Session.SetString("FullName", fullName);
+            }
+			
+            currentUser.Fullname = fullName;
 			currentUser.Email = email;
 			currentUser.Address = address;
 			currentUser.PhoneNumber = phone;
@@ -107,8 +112,7 @@ namespace BE_blog_BTLLTWeb.Controllers
 				currentUser.Avatar = filepath;
 				HttpContext.Session.SetString("Avatar", filepath);
 			}
-
-			ViewData["Sussess"] = "Update Success !";
+            ViewData["Sussess"] = "Update Success !";
 			db.SaveChanges();	
 			return View(currentUser);
 

@@ -46,8 +46,8 @@ namespace BE_blog_BTLLTWeb.Controllers
 					return View();
 				}
                 HttpContext.Session.SetString("UserName", acc.UserName.ToString());
-                HttpContext.Session.SetInt32("idUser", acc.IdAccount);
 				HttpContext.Session.SetString("FullName", acc.Fullname.ToString());
+                HttpContext.Session.SetInt32("idUser", acc.IdAccount);
 				if (acc.Avatar != null)
 				{
 					HttpContext.Session.SetString("Avatar", acc.Avatar.ToString());

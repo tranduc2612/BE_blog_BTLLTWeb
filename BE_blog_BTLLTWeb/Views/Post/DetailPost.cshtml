@@ -43,8 +43,35 @@
 					}
 				</span>
 			</p>
-			<!-- end entry content -->
+			<div class="entry__related">
+				<h3 class="h2">Related Articles</h3>
 
+			<!-- end entry content -->
+			@foreach(var relate in ViewBag.relativeBlog)
+			{
+			
+				<ul class="related">
+					<li class="related__item">
+							<a href="/Post/DetailPost?IdBlog=@relate.IdBlog" class="related__link">
+								<img src="@relate.Image" alt="" />
+						</a>
+						<h5 class="related__post-title">
+								@relate.Title
+						</h5>
+							@foreach (var cate in relate.Category)
+							{
+								<h5>
+									@cate.NameCategory
+								</h5>
+							}
+							
+					</li>
+					
+				</ul>
+			
+				
+			}
+			</div>
 			<!-- end entry related -->
 		</article>
 		<!-- end column large-full entry-->
